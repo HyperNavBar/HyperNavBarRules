@@ -1,6 +1,6 @@
 {
   "name": "社区规则源",
-  "dataVersion": "260702",
+  "dataVersion": "260704",
   "modules": "navigation_bar_immersive_application_config_new",
   "modifyApps": "modifyApps",
   "NBIRules": {
@@ -4067,10 +4067,46 @@
       "enable": true,
       "activityRules": {}
     },
+    "com.jxedt.babyElephant": {
+      "name": "考试宝极速版",
+      "enable": true,
+      "activityRules": {
+        "*": {
+          "mode": 1,
+          "color": 1,
+          "sf_sampling_mode": 1,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        }
+      }
+    },
     "com.jym.gcmall": {
       "name": "",
       "enable": true,
       "activityRules": {}
+    },
+    "com.kaoshibaodian.app": {
+      "name": "考试宝",
+      "enable": true,
+      "activityRules": {
+        "*": {
+          "mode": 0,
+          "color": null,
+          "sf_sampling_mode": 1,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "ksbd.app.home.HomeActivity": {
+          "mode": 0,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        }
+      }
     },
     "com.klcxkj.zqxy": {
       "name": "趣智校园",
@@ -12589,6 +12625,20 @@
     },
     "me.iacn.biliroaming": {
       "name": "哔哩漫游",
+      "enable": true,
+      "activityRules": {
+        "*": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        }
+      }
+    },
+    "org.frknkrc44.hma_oss": {
+      "name": "HMA-OSS",
       "enable": true,
       "activityRules": {
         "*": {
