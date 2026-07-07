@@ -2952,8 +2952,8 @@
           "appNavColorDisabled": 0
         },
         "com.alipay.mobile.antcardsdk.cardapp.CSPushActivity": {
-          "mode": 1,
-          "color": 1,
+          "mode": 2,
+          "color": null,
           "sf_sampling_mode": 1,
           "dialogMode": 1,
           "popupMode": 1,
