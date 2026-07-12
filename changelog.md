@@ -12,6 +12,16 @@
 
 [@Ianzb](https://github.com/Ianzb)
 
+## 2026-07-07
+
+### 优化
+
+- 支付宝 (__@CnBarrier404__)
+
+### 贡献者
+
+[@CnBarrier404](https://github.com/CnBarrier404)
+
 ## 2026-07-04
 
 ### 新增
