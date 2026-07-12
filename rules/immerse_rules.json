@@ -4097,14 +4097,6 @@
           "dialogMode": 1,
           "popupMode": 1,
           "appNavColorDisabled": 0
-        },
-        "ksbd.app.home.HomeActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
         }
       }
     },
