@@ -662,30 +662,6 @@
       "name": "去哪儿",
       "enable": true,
       "activityRules": {
-        "com.mqunar.react.base.stack.container.QReactNativeActivity1": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
-        },
-        "com.mqunar.react.base.stack.container.QReactNativeActivity2": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
-        },
-        "com.mqunar.react.base.stack.container.QReactNativeActivity3": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
-        }
       }
     },
     "com.UCMobile": {
