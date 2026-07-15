@@ -1,6 +1,6 @@
 {
   "name": "社区规则源",
-  "dataVersion": "260712",
+  "dataVersion": "260715",
   "modules": "navigation_bar_immersive_application_config_new",
   "modifyApps": "modifyApps",
   "NBIRules": {
@@ -221,6 +221,14 @@
           "appNavColorDisabled": 0
         },
         "com.alibaba.pictures.bricks.channel.activity.BricksChannelPageActivity": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.alibaba.pictures.bricks.search.v2.SearchActivity": {
           "mode": 2,
           "color": null,
           "sf_sampling_mode": 0,
@@ -662,6 +670,14 @@
       "name": "去哪儿",
       "enable": true,
       "activityRules": {
+        "com.mqunar.react.base.stack.container.QReactNativeActivity*": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 1
+        }
       }
     },
     "com.UCMobile": {
@@ -6156,6 +6172,20 @@
         }
       }
     },
+    "com.quark.clouddrive": {
+      "name": "夸克网盘",
+      "enable": true,
+      "activityRules": {
+        "com.ucpro.BrowserActivity": {
+          "mode": 0,
+          "color": null,
+          "sf_sampling_mode": 1,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        }
+      }
+    },
     "com.qujianzhushou": {
       "name": "取件助手",
       "enable": true,
@@ -6407,9 +6437,9 @@
           "appNavColorDisabled": 0
         },
         "com.sankuai.rn.train.common.TrafficRnCommonActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
+          "mode": 1,
+          "color": 1,
+          "sf_sampling_mode": 1,
           "dialogMode": 1,
           "popupMode": 1,
           "appNavColorDisabled": 0
@@ -12839,7 +12869,7 @@
           "appNavColorDisabled": 0
         },
         "com.mall.ui.page.base.MallFragmentLoaderActivity": {
-          "mode": 0,
+          "mode": 2,
           "color": null,
           "sf_sampling_mode": 0,
           "dialogMode": 1,
