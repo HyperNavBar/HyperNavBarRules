@@ -1,6 +1,6 @@
 {
   "name": "社区规则源",
-  "dataVersion": "260715",
+  "dataVersion": "260802",
   "modules": "navigation_bar_immersive_application_config_new",
   "modifyApps": "modifyApps",
   "NBIRules": {
@@ -1352,9 +1352,9 @@
           "appNavColorDisabled": 0
         },
         "com.baidu.baidumaps.MapsActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 0,
+          "mode": 0,
+          "color": null,
+          "sf_sampling_mode": 1,
           "dialogMode": 1,
           "popupMode": 1,
           "appNavColorDisabled": 0
@@ -3695,6 +3695,14 @@
           "mode": 1,
           "color": null,
           "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.hypergryph.skland.MainActivity": {
+          "mode": 0,
+          "color": null,
+          "sf_sampling_mode": 1,
           "dialogMode": 1,
           "popupMode": 1,
           "appNavColorDisabled": 0
