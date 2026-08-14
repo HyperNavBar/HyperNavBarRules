@@ -1,12 +1,13 @@
 {
   "name": "社区规则源",
-  "dataVersion": "260802",
+  "dataVersion": "260814",
   "modules": "navigation_bar_immersive_application_config_new",
   "modifyApps": "modifyApps",
   "NBIRules": {
     "air.tv.douyu.android": {
       "name": "斗鱼",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "bin.mt.plus": {
       "name": "MT管理器",
@@ -52,7 +53,8 @@
     },
     "cn.TuHu.android": {
       "name": "",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "cn.com.chsi.chsiapp": {
       "name": "学信网",
@@ -162,19 +164,23 @@
     },
     "cn.gov.chinatax.gt4.app": {
       "name": "",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "cn.gov.pbc.dcep": {
       "name": "",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "cn.gov.tax.its": {
       "name": "",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "cn.hsa.app": {
       "name": "",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "cn.ikaile.ruoshui.client": {
       "name": "RoseLink",
@@ -250,7 +256,8 @@
     },
     "cn.samsclub.app": {
       "name": "",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "cn.soulapp.android": {
       "name": "Soul",
@@ -312,7 +319,8 @@
     },
     "cn.wps.moffice_eng": {
       "name": "WPS Office国际版",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "cn.wywk.app": {
       "name": "网鱼",
@@ -330,7 +338,8 @@
     },
     "cn.xuexi.android": {
       "name": "学习强国",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.MobileTicket": {
       "name": "铁路12306",
@@ -384,11 +393,13 @@
     },
     "com.UCMobile": {
       "name": "UC浏览器",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.achievo.vipshop": {
       "name": "唯品会",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.activitymanager": {
       "name": "Activity Manager",
@@ -486,7 +497,8 @@
     },
     "com.alibaba.android.rimet": {
       "name": "学习强国",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.alibaba.wireless": {
       "name": "阿里巴巴",
@@ -544,7 +556,8 @@
     },
     "com.alicloud.databox": {
       "name": "",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.android.bankabc": {
       "name": "中国农业银行",
@@ -609,7 +622,8 @@
     },
     "com.anjuke.android.app": {
       "name": "安居客",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.atour.atourlife": {
       "name": "亚朵",
@@ -709,11 +723,13 @@
     },
     "com.baidu.haokan": {
       "name": "好看视频",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.baidu.homework": {
       "name": "作业帮",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.baidu.netdisk": {
       "name": "百度网盘",
@@ -917,11 +933,13 @@
     },
     "com.baidu.tieba": {
       "name": "百度贴吧",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.baidu.wenku": {
       "name": "百度文库",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.bankcomm.Bankcomm": {
       "name": "交通银行",
@@ -1049,11 +1067,13 @@
     },
     "com.cat.readall": {
       "name": "",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.ccb.longjiLife": {
       "name": "",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.cctv.yangshipin.app.androidp": {
       "name": "",
@@ -1093,7 +1113,8 @@
     },
     "com.chinamworld.bocmbci": {
       "name": "中国银行",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.chinamworld.main": {
       "name": "中国建设银行",
@@ -1137,7 +1158,8 @@
     },
     "com.citiccard.mobilebank": {
       "name": "",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.cloudy.linglingbang": {
       "name": "五菱汽车",
@@ -1221,7 +1243,8 @@
     },
     "com.cmri.universalapp": {
       "name": "移动爱家",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.cnspeedtest.globalspeed": {
       "name": "全球网测",
@@ -1283,7 +1306,8 @@
     },
     "com.cubic.autohome": {
       "name": "汽车之家",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.dianping.v1": {
       "name": "大众点评",
@@ -1509,15 +1533,18 @@
     },
     "com.dz.hmjc": {
       "name": "河马剧场",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.eastmoney.android.berlin": {
       "name": "东方财富",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.ecitic.bank.mobile": {
       "name": "",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.edifier.edifierconnect": {
       "name": "EDIFIER Connect",
@@ -1629,7 +1656,8 @@
     },
     "com.eggflower.read": {
       "name": "蛋花免费小说",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.epicgames.portal": {
       "name": "Epic Games",
@@ -1697,11 +1725,13 @@
     },
     "com.fenbi.android.leo": {
       "name": "小猿AI",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.fenbi.android.servant": {
       "name": "粉笔",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.github.android": {
       "name": "Github",
@@ -1788,15 +1818,18 @@
     },
     "com.gotokeep.keep": {
       "name": "Keep",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.greenpoint.android.mc10086.activity": {
       "name": "中国移动",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.handsgo.jiakao.android": {
       "name": "",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.hengye.share": {
       "name": "Share",
@@ -1877,7 +1910,8 @@
     },
     "com.huawei.health": {
       "name": "华为运动健康",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.huaxiaozhu.rider": {
       "name": "花小猪打车",
@@ -1895,11 +1929,13 @@
     },
     "com.hunantv.imgo.activity": {
       "name": "芒果TV",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.hundsun.winner.pazq": {
       "name": "平安证券",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.hupu.games": {
       "name": "虎扑",
@@ -1917,7 +1953,8 @@
     },
     "com.hupu.shihuo": {
       "name": "识货",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.hustzp.com.xichuangzhu": {
       "name": "西窗烛",
@@ -1979,7 +2016,8 @@
     },
     "com.icbc": {
       "name": "中国工商银行",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.iflytek.elpmobile.marktool": {
       "name": "智学网教师端",
@@ -2163,7 +2201,8 @@
     },
     "com.jingyao.easybike": {
       "name": "哈啰",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.jiongji.andriod.card": {
       "name": "百词斩",
@@ -2232,7 +2271,8 @@
     },
     "com.klcxkj.zqxy": {
       "name": "趣智校园",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.klcxkj.zqxy_kaihe": {
       "name": "悦享校园",
@@ -2250,7 +2290,8 @@
     },
     "com.kmxs.reader": {
       "name": "七猫免费小说",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.ktls.fileinfo": {
       "name": "储存空间清理",
@@ -2319,7 +2360,8 @@
     },
     "com.kugou.android": {
       "name": "酷狗音乐",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.kurogame.kjq": {
       "name": "库街区",
@@ -2337,19 +2379,23 @@
     },
     "com.kwai.theater": {
       "name": "喜番免费短剧",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.kwai.videoeditor": {
       "name": "快影",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.lalamove.huolala.client": {
       "name": "",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.larus.nova": {
       "name": "豆包",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.lefan.signal": {
       "name": "信号检测仪",
@@ -2389,11 +2435,13 @@
     },
     "com.letv.android.client": {
       "name": "",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.letv.android.client.pad": {
       "name": "",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.lianjia.beike": {
       "name": "贝壳找房",
@@ -2402,11 +2450,13 @@
     },
     "com.lingan.seeyou": {
       "name": "美柚",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.lofter.android": {
       "name": "网易LOFTER",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.lonx.lyrico": {
       "name": "Lyrico",
@@ -2424,7 +2474,8 @@
     },
     "com.lphtsccft": {
       "name": "涨乐财富通",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.lptiyu.tanke": {
       "name": "步道乐跑",
@@ -2456,7 +2507,8 @@
     },
     "com.lynkco.customer": {
       "name": "",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.maimemo.android.momo": {
       "name": "墨墨背单词",
@@ -2786,7 +2838,8 @@
     },
     "com.midea.ai.appliances": {
       "name": "",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.mihoyo.hyperion": {
       "name": "米游社",
@@ -2940,7 +2993,8 @@
     },
     "com.mt.mtxx.mtxx": {
       "name": "",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.mutangtech.qianji": {
       "name": "钱迹",
@@ -3161,7 +3215,8 @@
     },
     "com.netease.mobimail": {
       "name": "",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.netease.uu": {
       "name": "",
@@ -3208,7 +3263,8 @@
     },
     "com.okcam.ookcam": {
       "name": "",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.omarea.vtools": {
       "name": "Scene",
@@ -3262,11 +3318,13 @@
     },
     "com.pingan.carowner": {
       "name": "",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.pingan.paces.ccms": {
       "name": "平安口袋银行",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.plan.kot32.tomatotime": {
       "name": "番茄 ToDo",
@@ -3336,15 +3394,18 @@
     },
     "com.qinyige.navbartest2": {
       "name": "",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.qiyi.video": {
       "name": "爱奇艺",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.qiyi.video.lite": {
       "name": "爱奇艺极速版",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.qiyi.video.pad": {
       "name": "",
@@ -3515,7 +3576,8 @@
     },
     "com.sankuai.meituan.meituanwaimaibusiness": {
       "name": "美团外卖商家版",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.sankuai.meituan.takeoutnew": {
       "name": "美团",
@@ -3541,7 +3603,8 @@
     },
     "com.sankuai.movie": {
       "name": "猫眼",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.sdu.didi.gsui": {
       "name": "滴滴车主",
@@ -3588,15 +3651,18 @@
     },
     "com.seetong.app.seetong": {
       "name": "Seetong",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.sf.activity": {
       "name": "顺丰速运",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.sgcc.wsgw.cn": {
       "name": "",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.shanbay.wisecards": {
       "name": "扇贝知卡",
@@ -3628,7 +3694,8 @@
     },
     "com.shizhuang.duapp": {
       "name": "识货",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.shuqi.controller": {
       "name": "书旗小说",
@@ -3637,7 +3704,8 @@
     },
     "com.sina.weibo": {
       "name": "微博",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.sinovatech.unicom.ui": {
       "name": "中国联通",
@@ -3844,15 +3912,18 @@
     },
     "com.sohu.newsclient": {
       "name": "搜狐新闻",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.sohu.sohuvideo": {
       "name": "搜狐视频",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.ss.android.article.lite": {
       "name": "今日头条极速版",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.ss.android.article.news": {
       "name": "今日头条",
@@ -3878,7 +3949,8 @@
     },
     "com.ss.android.article.video": {
       "name": "西瓜视频",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.ss.android.auto": {
       "name": "懂车帝",
@@ -4454,7 +4526,8 @@
     },
     "com.sup.android.superb": {
       "name": "皮皮虾",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.svw.sc.mos": {
       "name": "上汽大众",
@@ -4494,7 +4567,8 @@
     },
     "com.taobao.etao": {
       "name": "一淘",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.taobao.idlefish": {
       "name": "闲鱼",
@@ -4542,7 +4616,8 @@
     },
     "com.taobao.live": {
       "name": "淘宝直播",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.taobao.movie.android": {
       "name": "淘票票",
@@ -4662,19 +4737,23 @@
     },
     "com.taobao.trip": {
       "name": "",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.taptap": {
       "name": "TapTap",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.tencent.android.qqdownloader": {
       "name": "应用宝",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.tencent.androidqqmail": {
       "name": "QQ邮箱",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.tencent.apps.valorant": {
       "name": "掌上无畏契约",
@@ -4708,11 +4787,13 @@
     },
     "com.tencent.gamehelper.pg": {
       "name": "和平营地",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.tencent.gamehelper.smoba": {
       "name": "王者营地",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.tencent.hunyuan.app.chat": {
       "name": "",
@@ -4721,11 +4802,13 @@
     },
     "com.tencent.karaoke": {
       "name": "全名K歌",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.tencent.map": {
       "name": "",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.tencent.mm": {
       "name": "微信",
@@ -4931,7 +5014,8 @@
     },
     "com.tencent.news": {
       "name": "",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.tencent.qqlive": {
       "name": "腾讯视频",
@@ -4979,7 +5063,8 @@
     },
     "com.tencent.qt.qtl": {
       "name": "",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.tencent.tim": {
       "name": "TIM",
@@ -5002,7 +5087,8 @@
     },
     "com.tencent.tmgp.sgame": {
       "name": "",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.tencent.wemeet.app": {
       "name": "",
@@ -5016,7 +5102,8 @@
     },
     "com.tencent.wework": {
       "name": "企业微信",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.tencent.zebra": {
       "name": "水印相机",
@@ -5066,7 +5153,8 @@
     },
     "com.tmri.app.main": {
       "name": "交管12123",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.tongcheng.android": {
       "name": "",
@@ -5075,7 +5163,8 @@
     },
     "com.tplink.ipc": {
       "name": "",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.tumuyan.ncnn.realsr": {
       "name": "RealSR放大图片",
@@ -5165,7 +5254,8 @@
     },
     "com.unionpay": {
       "name": "云闪付",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.unionpay.tsmservice.mi": {
       "name": "银联可信服务安全组件小米版本",
@@ -5247,7 +5337,8 @@
     },
     "com.videogo": {
       "name": "萤石云视频",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.walixiwa.flash.player": {
       "name": "资源猫",
@@ -5378,7 +5469,8 @@
     },
     "com.wuba": {
       "name": "58同城",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.wuba.zhuanzhuan": {
       "name": "转转",
@@ -5396,7 +5488,8 @@
     },
     "com.wudaokou.hippo": {
       "name": "盒马",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.x7890.shortcutcreator": {
       "name": "创建快捷方式",
@@ -5698,15 +5791,18 @@
     },
     "com.xs.fm": {
       "name": "番茄畅听",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.xs.fm.lite": {
       "name": "番茄畅听音乐版",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.xt.retouch": {
       "name": "",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.xtc.watch": {
       "name": "",
@@ -5786,7 +5882,8 @@
     },
     "com.ygkj.chelaile.standard": {
       "name": "车来了",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.yiban.app": {
       "name": "易班",
@@ -5820,15 +5917,18 @@
     },
     "com.yipiao": {
       "name": "",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.yitong.mbank.psbc": {
       "name": "",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.youdao.dict": {
       "name": "有道词典",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.youdao.translator": {
       "name": "有道翻译官",
@@ -5846,11 +5946,13 @@
     },
     "com.youku.phone": {
       "name": "优酷视频",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.yueme.itv": {
       "name": "",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.yzj.kaipanh": {
       "name": "开盘红",
@@ -5868,7 +5970,8 @@
     },
     "com.zhaopin.social": {
       "name": "",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.zhihu.android": {
       "name": "知乎",
@@ -5960,7 +6063,8 @@
     },
     "com.zmzx.college.search": {
       "name": "大学搜题酱",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "com.zte.smarthome": {
       "name": "中兴智慧生活",
@@ -6251,7 +6355,8 @@
     },
     "me.ele": {
       "name": "淘宝闪购",
-      "enable": true
+      "enable": true,
+      "activityRules": {}
     },
     "me.hd.wauxv": {
       "name": "WAuxiliary",
