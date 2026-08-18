@@ -101,7 +101,7 @@ Pull Request 前建议在本地进行验证，提交时确保已填写 [更新�
 | **name**               | string  | 任意字符串           | -       | 应用显示名称（仅用于方便管理） |
 | **enable**             | boolean | `true`, `false` | `false` | 基础启用标志            |
 | **enable31**           | boolean | `true`, `false` | `false` | 特殊启用标志            |
-| **disableVersionCode** | long    | 数字或 `null`      | `null`  | 当应用版本号大于等于此值时禁用规则 |
+| **disableVersionCode** | long    | 数字或 `null`      | `null`  | 当应用版本号小于等于此值时禁用规则 |
 
 **启用逻辑说明：**
 
@@ -303,7 +303,7 @@ Pull Request 前建议在本地进行验证，提交时确保已填写 [更新�
 2. Activity名称不正确
 3. 被系统云控覆盖
 4. 配置文件格式错误
-5. 应用版本号超过 `disableVersionCode`
+5. 应用版本号未超过 `disableVersionCode`
 
 ### 如何获取 Activity 名称？
 
