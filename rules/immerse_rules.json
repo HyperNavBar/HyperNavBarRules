@@ -1,6 +1,6 @@
 {
   "name": "社区规则源",
-  "dataVersion": "260814",
+  "dataVersion": "260818",
   "modules": "navigation_bar_immersive_application_config_new",
   "modifyApps": "modifyApps",
   "NBIRules": {
@@ -6517,6 +6517,14 @@
         },
         "com.bilibili.bplus.im.conversation.ConversationActivity": {
           "mode": 0,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.bilibili.lib.ui.ComposeActivity": {
+          "mode": 2,
           "color": null,
           "sf_sampling_mode": 0,
           "dialogMode": 1,
