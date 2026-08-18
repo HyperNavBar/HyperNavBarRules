@@ -1,7 +1,7 @@
 {
   "name": "社区规则源",
   "dataVersion": "260818",
-  "modules": "navigation_bar_immersive_application_config_new",
+  "modules": "HyperNavBar_config",
   "modifyApps": "modifyApps",
   "NBIRules": {
     "air.tv.douyu.android": {
@@ -14,12 +14,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -28,12 +23,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -42,12 +32,7 @@
       "enable": true,
       "activityRules": {
         "cmb.pb.app.mainframe.container.PBMainActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         }
       }
     },
@@ -61,12 +46,8 @@
       "enable": true,
       "activityRules": {
         "cn.com.chsi.chsiapp.MainActivity": {
-          "mode": 1,
-          "color": -1,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "color",
+          "color": "#FFFFFFFF"
         }
       }
     },
@@ -85,12 +66,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -99,52 +75,23 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
+          "style": "sf",
           "appNavColorDisabled": 1
         },
         "cn.damai.h5container.DMH5Activity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         },
         "cn.damai.message.MessageMainActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "cn.damai.trade.newtradeorder.ui.projectdetail.ui.activity.ProjectDetailActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         },
         "com.alibaba.pictures.bricks.channel.activity.BricksChannelPageActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.alibaba.pictures.bricks.search.v2.SearchActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -153,12 +100,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -187,12 +129,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -201,20 +138,10 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "cn.kuwo.player.activities.MainActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         }
       }
     },
@@ -223,12 +150,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -237,20 +159,10 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "cn.ninebot.ninebot.mainshell.MainActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "disabled"
         }
       }
     },
@@ -264,12 +176,7 @@
       "enable": true,
       "activityRules": {
         "cn.soulapp.android.h5.activity.H5Activity": {
-          "mode": 2,
-          "color": 1,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -278,12 +185,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         }
       }
     },
@@ -292,28 +194,15 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "cn.unipus.cloud.mvvm.view.activity.MainActivity": {
-          "mode": 1,
-          "color": -1,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "color",
+          "color": "#FFFFFFFF"
         },
         "cn.unipus.cloud.my.student.mvvm.view.activity.UserInfoDetailActivity": {
-          "mode": 1,
-          "color": -1,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "color",
+          "color": "#FFFFFFFF"
         }
       }
     },
@@ -327,12 +216,7 @@
       "enable": true,
       "activityRules": {
         "cn.wywk.core.splash.SplashActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -346,12 +230,8 @@
       "enable": true,
       "activityRules": {
         "com.MobileTicket.ui.activity.MainActivity": {
-          "mode": 1,
-          "color": 0,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "color",
+          "color": "#00000000"
         }
       }
     },
@@ -360,20 +240,10 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.One.WoodenLetter.MainActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         }
       }
     },
@@ -382,11 +252,7 @@
       "enable": true,
       "activityRules": {
         "com.mqunar.react.base.stack.container.QReactNativeActivity*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
+          "style": "floating",
           "appNavColorDisabled": 1
         }
       }
@@ -406,12 +272,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -420,12 +281,8 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 1,
-          "color": -1,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "color",
+          "color": "#FFFFFFFF"
         }
       }
     },
@@ -434,28 +291,13 @@
       "enable": true,
       "activityRules": {
         "com.wifiview.activity.HomePagerActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         },
         "com.wifiview.activity.MainActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         },
         "com.wifiview.activity.SplashActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         }
       }
     },
@@ -464,20 +306,10 @@
       "enable": true,
       "activityRules": {
         "com.aiyu.kaipanla.newindex.ui.main.MainActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "view"
         },
         "com.aiyu.kaipanla.splash.SplashActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -486,12 +318,7 @@
       "enable": true,
       "activityRules": {
         "com.akira.tyranoemu.app.TyActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         }
       }
     },
@@ -505,52 +332,22 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.alibaba.wireless.container.windvane.AliWindvaneActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "view"
         },
         "com.alibaba.wireless.launch.home.V5HomeActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "view"
         },
         "com.alibaba.wireless.popwindow.core.PopPageWindow": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.alibaba.wireless.workbench.myali.MyAliSettingActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "view"
         },
         "com.alibaba.wireless.workbench.myali.mywidget.ImagePagerDialog": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "view"
         }
       }
     },
@@ -564,12 +361,7 @@
       "enable": true,
       "activityRules": {
         "com.xiaomi.fido1.matcher.FPTActivity": {
-          "mode": -1,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "default"
         }
       }
     },
@@ -578,12 +370,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -592,12 +379,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -606,12 +388,7 @@
       "enable": true,
       "activityRules": {
         "rikka.sui.SuiActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -630,44 +407,19 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 1,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "view"
         },
         "com.atour.atourlife.activity.TypeMsgCodeActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.atour.atourlife.activity.UserLoginByMsgActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.atour.atourlife.login.activity.UserLoginActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.atour.atourlife.order.detail.activity.OrderActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -676,12 +428,8 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 1,
-          "color": 0,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "color",
+          "color": "#00000000"
         }
       }
     },
@@ -690,20 +438,10 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.baidu.baidumaps.MapsActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         }
       }
     },
@@ -712,12 +450,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -736,52 +469,22 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.baidu.netdisk.aigc.ui.activity.CloudPieceActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "disabled"
         },
         "com.baidu.netdisk.album.AlbumServiceActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "disabled"
         },
         "com.baidu.netdisk.cloudimage.ui.view.AlbumServiceActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         },
         "com.baidu.netdisk.ui.MainActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "disabled"
         },
         "com.baidu.netdisk.ui.cloudfile.MyCategoryActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "disabled"
         }
       }
     },
@@ -790,20 +493,10 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "CustomDrawerLayout": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "disabled"
         }
       }
     },
@@ -812,36 +505,16 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.baidu.searchbox.MainActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         },
         "com.baidu.searchbox.account.userinfo.activity.PersonalPageNaActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         },
         "com.baidu.searchbox.godeye.CodeScannerActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -850,84 +523,28 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.baidu.live.goods.detail.act.MainActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "disabled"
         },
         "com.baidu.searchbox.MainActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         },
         "com.baidu.searchbox.account.userinfo.activity.PersonalPageNaActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         },
         "com.baidu.searchbox.live.list.MixLiveTranslucentActivity": {
-          "mode": 1,
-          "color": -16777216,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
-        },
-        "com.baidu.searchbox.newreader.novel.view.activity.NovelSoundPlayerActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         },
         "com.baidu.searchbox.novel.audio.NovelSoundPlayerActivity": {
-          "mode": -1,
-          "color": null,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         },
         "com.baidu.searchbox.video.collectionflow.CollectionFlowActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
-        },
-        "com.baidu.searchbox.video.feedflow.tab.VideoTabActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         },
         "com.baidu.ugc.image.ImageEditActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "view"
         }
       }
     },
@@ -956,20 +573,10 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.bubblesoft.android.bubbleupnp.MainTabActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         }
       }
     },
@@ -978,12 +585,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -992,12 +594,8 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 1,
-          "color": -1,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "color",
+          "color": "#FFFFFFFF"
         }
       }
     },
@@ -1006,12 +604,7 @@
       "enable": true,
       "activityRules": {
         "com.bwvip.sporteducation.SplashActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -1020,12 +613,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -1034,20 +622,10 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.byyoung.setting.HomePage.activitys.MainActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "disabled"
         }
       }
     },
@@ -1056,12 +634,7 @@
       "enable": true,
       "activityRules": {
         "com.cainiao.wireless.components.hybrid.windvane.activity.GuoGuoNewWebViewActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -1080,12 +653,7 @@
       "enable": true,
       "activityRules": {
         "com.tencent.videolite.android.ui.HomeActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         }
       }
     },
@@ -1094,20 +662,10 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         },
         "com.chaoxing.mobile.group.ui.TopicBodyActivity": {
-          "mode": 2,
-          "color": 1,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -1121,28 +679,13 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": -1,
-          "color": null,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         },
         "com.ccb.start.MainActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         },
         "com.nantian.iBank.ui.activity.container.ProgramSingleWindowActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -1166,12 +709,7 @@
       "enable": true,
       "activityRules": {
         "com.cloudy.linglingbang.activity.HomeActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         }
       }
     },
@@ -1185,12 +723,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -1204,12 +737,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "disabled"
         }
       }
     },
@@ -1218,12 +746,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         }
       }
     },
@@ -1232,12 +755,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         }
       }
     },
@@ -1251,28 +769,13 @@
       "enable": true,
       "activityRules": {
         "com.ruili.android.taierspeed.speedtest.SpeedTestSettingActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.ruili.android.taierspeed.system.SystemInfoActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.ruili.android.taierspeed.testreport.TestReportActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -1281,12 +784,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -1295,12 +793,8 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 1,
-          "color": 0,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "color",
+          "color": "#00000000"
         }
       }
     },
@@ -1314,124 +808,51 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.dianping.gcmrn.ssr.GCMRNSSRActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "disabled"
         },
         "com.dianping.movie.trade.MovieTitansActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "disabled"
         },
         "com.dianping.movie.trade.home.MovieMainActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "disabled"
         },
         "com.dianping.nova.picasso.DPPicassoBoxActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.dianping.tuan.activity.DealDetailAgentActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "disabled"
         },
         "com.dianping.v1.NovaMainActivity": {
-          "mode": 1,
-          "color": 0,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "color",
+          "color": "#00000000"
         },
         "com.dianping.voyager.poi.GCPOIDetailActivity": {
-          "mode": 1,
-          "color": -1,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "color",
+          "color": "#FFFFFFFF"
         },
         "com.meituan.android.movie.tradebase.activity.MovieCinemaListActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.meituan.android.movie.tradebase.activity.PaySeatActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "disabled"
         },
         "com.meituan.android.mrn.container.MRNBaseActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.meituan.msc.modules.container.MSCActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "disabled"
         },
         "com.sankuai.waimai.business.page.homepage.TakeoutActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "disabled"
         },
         "com.sankuai.waimai.store.drug.home.NewDrugHomeActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "disabled"
         },
         "com.sankuai.xm.imui.session.SessionActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "disabled"
         }
       }
     },
@@ -1440,12 +861,7 @@
       "enable": true,
       "activityRules": {
         "com.didjdk.adbhelper.FastbootActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -1454,12 +870,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -1468,52 +879,24 @@
       "enable": true,
       "activityRules": {
         "com.bytedance.sdk.open.douyin.ui.DouYinWebAuthorizeActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.dragon.community.impl.detail.dialog.c": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.dragon.read.component.biz.impl.bookshelf.bookgroup.BookGroupActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.dragon.read.component.biz.impl.bookshelf.moredetail.BookshelfMoreDetailDialog": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "disabled"
         },
         "com.dragon.read.hybrid.webview.WebViewActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.dragon.read.pages.main.MainFragmentActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 1,
+          "style": "sf",
           "dialogMode": 0,
-          "popupMode": 0,
-          "appNavColorDisabled": 0
+          "popupMode": 0
         }
       }
     },
@@ -1522,12 +905,7 @@
       "enable": true,
       "activityRules": {
         "com.duowan.kiwi.homepage.Homepage": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         }
       }
     },
@@ -1551,12 +929,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         }
       }
     },
@@ -1565,92 +938,38 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         },
         "com.alipay.android.phone.homemarket.marketnew.AppManageActivityV3": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.alipay.android.phone.seauthenticator.iotauth.view.FpFullViewCompatDialog": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         },
         "com.alipay.android.phone.xriver.bundlex.CSGAPushActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         },
         "com.alipay.mobile.antcardsdk.cardapp.CSPushActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         },
         "com.alipay.mobile.chatapp.ui.PersonalChatMsgActivity_": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         },
         "com.alipay.mobile.nebulax.integration.mpaas.activity.NebulaActivity$Main": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "disabled"
         },
         "com.alipay.mobile.nebulax.xriver.activity.XRiverActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         },
         "com.alipay.mobile.nebulax.xriver.activity.XRiverActivity*": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         },
         "com.alipay.mobile.scan.as.main.MainCaptureActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         },
         "com.antfortune.wealth.stock.StockMainActivity": {
-          "mode": 1,
-          "color": 0,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "color",
+          "color": "#00000000"
         }
       }
     },
@@ -1664,12 +983,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -1678,20 +992,10 @@
       "enable": true,
       "activityRules": {
         "com.eusoft.ting.ui.CommonWebViewActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         },
         "com.eusoft.ting.ui.TingReaderActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         }
       }
     },
@@ -1700,12 +1004,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -1714,12 +1013,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -1738,20 +1032,11 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.github.android.main.MainActivity": {
-          "mode": 1,
-          "color": 0,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "color",
+          "color": "#00000000"
         }
       }
     },
@@ -1760,12 +1045,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -1774,12 +1054,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -1793,12 +1068,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -1807,12 +1077,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -1836,12 +1101,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         }
       }
     },
@@ -1850,28 +1110,14 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.hexin.android.bank.funddetail.funddetail.ui.main.FundDetailActivity": {
-          "mode": 1,
-          "color": 0,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "color",
+          "color": "#00000000"
         },
         "com.hexin.plat.android.Hexin": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         }
       }
     },
@@ -1880,12 +1126,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": -1,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "default"
         }
       }
     },
@@ -1899,12 +1140,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -1918,12 +1154,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -1942,12 +1173,7 @@
       "enable": true,
       "activityRules": {
         "com.hupu.games.main.MainActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         }
       }
     },
@@ -1961,12 +1187,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -1975,20 +1196,10 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 1,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "view"
         },
         "com.hypergryph.skland.MainActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         }
       }
     },
@@ -1997,20 +1208,11 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.hz.smartsports.ui.activity.MainActivity": {
-          "mode": 1,
-          "color": -1,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "color",
+          "color": "#FFFFFFFF"
         }
       }
     },
@@ -2024,20 +1226,10 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.iflytek.elpmobile.marktool.ui.MainActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         }
       }
     },
@@ -2046,20 +1238,10 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.iflytek.elpmobile.smartlearning.ui.MainActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         }
       }
     },
@@ -2068,20 +1250,10 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.iflytek.elpmobile.student.ui.MainActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         }
       }
     },
@@ -2095,12 +1267,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -2114,20 +1281,10 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.jason.taoke.ui.activities.MainActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "disabled"
         }
       }
     },
@@ -2136,12 +1293,7 @@
       "enable": true,
       "activityRules": {
         "com.jd.jrapp.bm.common.container.ui.BaseContainerActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -2150,52 +1302,19 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.jd.lib.jshop.jshop.JshopMainShopActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         },
         "com.jd.lib.productdetail.ProductDetailActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.jd.lib.ttt.page.TTTMultiPageActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
-        },
-        "com.jingdong.app.mall.MainFrameActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.jingdong.common.jdreactFramework.activities.JDReactNativeCommonActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -2209,20 +1328,11 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.baicizhan.main.activity.MainTabActivity": {
-          "mode": 1,
-          "color": 0,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "color",
+          "color": "#00000000"
         }
       }
     },
@@ -2241,12 +1351,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         }
       }
     },
@@ -2260,12 +1365,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         }
       }
     },
@@ -2279,12 +1379,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         }
       }
     },
@@ -2298,12 +1393,7 @@
       "enable": true,
       "activityRules": {
         "com.ktls.fileinfo.O000OO00O0OOO00OO00.O0000O00O0OOO00OO0O": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -2317,44 +1407,16 @@
       "enable": true,
       "activityRules": {
         "com.kuaishou.live.core.basic.activity.LiveSlideActivity*": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         },
         "com.kuaishou.merchant.transaction.detail.contentdetail.MerchantContentDetailActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
-        },
-        "com.yxcorp.gifshow.activity.share.ShareActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         },
         "com.yxcorp.gifshow.detail.PhotoDetailActivityTablet": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         },
         "com.yxcorp.plugin.setting.cache.activity.CacheDetailActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         }
       }
     },
@@ -2368,12 +1430,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -2402,20 +1459,10 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.google.android.material.bottomsheet.BottomSheetDialog": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         }
       }
     },
@@ -2424,11 +1471,7 @@
       "enable": true,
       "activityRules": {
         "io.legado.app.ui.book.read.ReadBookActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
+          "style": "sf",
           "appNavColorDisabled": 1
         }
       }
@@ -2463,12 +1506,7 @@
       "enable": true,
       "activityRules": {
         "com.lonx.lyrico.MainActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -2482,12 +1520,7 @@
       "enable": true,
       "activityRules": {
         "com.lptiyu.tanke.activities.main.MainActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         }
       }
     },
@@ -2496,12 +1529,7 @@
       "enable": true,
       "activityRules": {
         "com.luna.biz.main.main.MainActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         }
       }
     },
@@ -2515,11 +1543,7 @@
       "enable": true,
       "activityRules": {
         "com.maimemo.android.momo.word.WordActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
+          "style": "floating",
           "appNavColorDisabled": 1
         }
       }
@@ -2529,28 +1553,13 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.max.xiaoheihe.MainActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "view"
         },
         "com.max.xiaoheihe.module.bbs.post.ui.activitys.v2.PicturePostPageActivityV2": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "view"
         }
       }
     },
@@ -2559,100 +1568,40 @@
       "enable": true,
       "activityRules": {
         "com.mcd.cms.activity.CmsDetailActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.mcd.library.rn.McdReactNativeActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.mcd.mall.activity.MallDetailActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         },
         "com.mcd.mall.activity.MallGradeActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.mcd.product.activity.ProductFcListActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.mcd.product.activity.ProductMdsListActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.mcd.qrcode.QRScanCodeActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.mcd.user.activity.BadgeStudioActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.mcd.user.activity.SettingActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.mcd.user.activity.WalletActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.mcd.web.activity.BaseWebActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.mcdonalds.gma.cn.activity.MainActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         }
       }
     },
@@ -2671,12 +1620,7 @@
       "enable": true,
       "activityRules": {
         "com.meta.box.ui.main.MainActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         }
       }
     },
@@ -2685,12 +1629,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -2699,28 +1638,14 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.xiaomi.fitness.main.MainActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
+          "style": "sf",
           "appNavColorDisabled": 1
         },
         "com.xiaomi.wearable.yrn.views.WearableRNActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         }
       }
     },
@@ -2729,12 +1654,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         }
       }
     },
@@ -2743,12 +1663,7 @@
       "enable": true,
       "activityRules": {
         "org.chromium.chrome.browser.edge_settings.EdgeSettingsActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -2757,12 +1672,7 @@
       "enable": true,
       "activityRules": {
         "org.chromium.chrome.browser.edge_settings.EdgeSettingsActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -2771,12 +1681,7 @@
       "enable": true,
       "activityRules": {
         "org.chromium.chrome.browser.edge_settings.EdgeSettingsActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -2785,12 +1690,7 @@
       "enable": true,
       "activityRules": {
         "org.chromium.chrome.browser.edge_settings.EdgeSettingsActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -2799,12 +1699,7 @@
       "enable": true,
       "activityRules": {
         "com.acompli.acompli.CentralActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -2813,12 +1708,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -2827,12 +1717,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         }
       }
     },
@@ -2846,36 +1731,16 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 1,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "view"
         },
         "com.mihoyo.hyperion.editor.container.PublishActivity": {
-          "mode": 1,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "view"
         },
         "com.mihoyo.hyperion.web2.MiHoYoWebActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.mihoyo.platform.account.miyosummer.view.login.PorteLoginActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         }
       }
     },
@@ -2884,12 +1749,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -2898,20 +1758,10 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.mipay.wallet.app.settings.MiuiStyleSettingActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "disabled"
         }
       }
     },
@@ -2920,12 +1770,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -2934,12 +1779,7 @@
       "enable": true,
       "activityRules": {
         "com.miui.nextpay.hybrid.HybridActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -2958,36 +1798,19 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.mosoink.teach.ClazzCourseActivity": {
-          "mode": 1,
-          "color": -1,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "color",
+          "color": "#FFFFFFFF"
         },
         "com.mosoink.teach.MainMenuActivity": {
-          "mode": 1,
-          "color": -1,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "color",
+          "color": "#FFFFFFFF"
         },
         "com.mosoink.teach.QuizBeginNewActivity": {
-          "mode": 1,
-          "color": -657931,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "color",
+          "color": "#F5F5F5FF"
         }
       }
     },
@@ -3001,12 +1824,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -3015,12 +1833,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -3029,20 +1842,10 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.nasoft.socmark.ui.MainActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "view"
         }
       }
     },
@@ -3051,84 +1854,34 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.netease.cloudmusic.activity.H5CustomViewActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.netease.cloudmusic.activity.IconChangeDefaultAlias": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.netease.cloudmusic.activity.MainActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         },
         "com.netease.cloudmusic.activity.PlayListActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         },
         "com.netease.cloudmusic.activity.RedirectActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         },
         "com.netease.cloudmusic.music.biz.comment.activity.CommentActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         },
         "com.netease.cloudmusic.music.biz.rn.activity.LayerReactNativeActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         },
         "com.netease.cloudmusic.music.biz.rn.activity.MainProcessLayerReactNativeActivity": {
-          "mode": 2,
-          "color": 1,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.netease.cloudmusic.music.biz.search.activity.SearchActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "disabled"
         }
       }
     },
@@ -3137,44 +1890,23 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.netease.edu.ucmooc.activity.ActivityMain": {
-          "mode": 1,
-          "color": -1,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "color",
+          "color": "#FFFFFFFF"
         },
         "com.netease.edu.ucmooc.homepage.activity.ActivityCourseIntroduce": {
-          "mode": 1,
-          "color": -1,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "color",
+          "color": "#FFFFFFFF"
         },
         "com.netease.edu.ucmooc.postgraduateexam.activity.ActivityCoursePackage": {
-          "mode": 1,
-          "color": -1,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "color",
+          "color": "#FFFFFFFF"
         },
         "com.netease.edu.ucmooc.postgraduateexam.activity.ActivityPostgraduateCourseDetail": {
-          "mode": 1,
-          "color": -1,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "color",
+          "color": "#FFFFFFFF"
         }
       }
     },
@@ -3183,28 +1915,13 @@
       "enable": true,
       "activityRules": {
         "com.netease.gl.compfeed.circle.activity.GameWikiActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.netease.gl.compfeed.creation.catalog.trending.activity.SquareScoreDetailActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.netease.gl.serviceh5.ui.NormalWebActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         }
       }
     },
@@ -3228,36 +1945,16 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         },
         "com.nowcoder.app.florida.modules.message.view.NCChatSessionListActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.nowcoder.app.florida.modules.userPage.UserPageActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.nowcoder.app.nc_core.common.web.view.NCWebActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -3271,12 +1968,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -3285,20 +1977,10 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.oray.sunlogin.application.Main": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         }
       }
     },
@@ -3307,12 +1989,7 @@
       "enable": true,
       "activityRules": {
         "com.dragon.read.hybrid.webview.WebViewActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "view"
         }
       }
     },
@@ -3331,20 +2008,11 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.plan.kot32.tomatotime.activity.MainActivity": {
-          "mode": 1,
-          "color": -1,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "color",
+          "color": "#FFFFFFFF"
         }
       }
     },
@@ -3353,12 +2021,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -3367,28 +2030,13 @@
       "enable": true,
       "activityRules": {
         "com.qidian.QDReader.ui.activity.CircleHomePageActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.qidian.QDReader.ui.activity.MoreActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.qidian.QDReader.ui.activity.QDReaderActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -3422,12 +2070,7 @@
       "enable": true,
       "activityRules": {
         "com.ucpro.BrowserActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         }
       }
     },
@@ -3436,12 +2079,7 @@
       "enable": true,
       "activityRules": {
         "com.ucpro.BrowserActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         }
       }
     },
@@ -3450,12 +2088,8 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 1,
-          "color": -1,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "color",
+          "color": "#FFFFFFFF"
         }
       }
     },
@@ -3464,12 +2098,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -3478,12 +2107,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -3492,28 +2116,15 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.ruanmei.zuihuimai.activity.DetailFanliActivity": {
-          "mode": 1,
-          "color": 0,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "color",
+          "color": "#00000000"
         },
         "com.ruanmei.zuihuimai.activity.MainActivity": {
-          "mode": 1,
-          "color": 0,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "color",
+          "color": "#00000000"
         }
       }
     },
@@ -3522,12 +2133,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -3536,36 +2142,16 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.meituan.android.pt.homepage.activity.MainActivity": {
-          "mode": -1,
-          "color": null,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         },
         "com.meituan.msc.modules.container.MSCActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.sankuai.rn.train.common.TrafficRnCommonActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         }
       }
     },
@@ -3584,20 +2170,10 @@
       "enable": true,
       "activityRules": {
         "com.meituan.msc.modules.container.MSCActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.sankuai.waimai.business.page.kingkong.KingKongActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -3616,36 +2192,17 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.didi.ride.dimina.DMActivity": {
-          "mode": 1,
-          "color": 0,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "color",
+          "color": "#00000000"
         },
         "com.didi.sdk.app.MainActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.didi.sdk.scan.act.QrCodeScanActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -3669,12 +2226,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -3683,12 +2235,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -3712,20 +2259,10 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.sinovatech.unicom.basic.ui.activity.MainActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         }
       }
     },
@@ -3734,28 +2271,13 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "view"
         },
         "com.smartisan.notes.NewNotesActivity": {
-          "mode": 2,
-          "color": 1,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.smartisan.notes.Splash": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "view"
         }
       }
     },
@@ -3764,52 +2286,19 @@
       "enable": true,
       "activityRules": {
         "com.kuaishou.live.core.basic.activity.LiveSlideActivity*": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         },
         "com.tencent.mm.plugin.luckymoney.ui.LuckyMoneyNewPrepareUI": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
-        },
-        "com.yxcorp.gifshow.activity.share.ShareActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "view"
         },
         "com.yxcorp.gifshow.detail.PhotoDetailActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         },
         "com.yxcorp.gifshow.detail.PhotoDetailActivityTablet": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         },
         "com.yxcorp.plugin.setting.cache.activity.CacheDetailActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         }
       }
     },
@@ -3818,68 +2307,33 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.smzdm.client.android.app.HomeActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "disabled"
         },
         "com.smzdm.client.android.module.business.ai.AiZhiActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "disabled"
         },
         "com.smzdm.client.android.module.community.module.articledetail.ArticleDetailLongActivity": {
-          "mode": 1,
-          "color": 0,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "color",
+          "color": "#00000000"
         },
         "com.smzdm.client.android.module.community.module.bask.BaskDetailActivity": {
-          "mode": 1,
-          "color": 0,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "color",
+          "color": "#00000000"
         },
         "com.smzdm.client.android.module.haojia.detail.HaojiaDetailActivity": {
-          "mode": 1,
-          "color": 0,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "color",
+          "color": "#00000000"
         },
         "com.smzdm.client.android.module.haojia.detail.mini.HaojiaMiniDetailActivity": {
-          "mode": 1,
-          "color": 0,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "color",
+          "color": "#00000000"
         },
         "com.smzdm.core.editor.component.main.converge.EditorConvergeMainActivity": {
-          "mode": 1,
-          "color": 0,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "color",
+          "color": "#00000000"
         }
       }
     },
@@ -3893,20 +2347,10 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.sohu.inputmethod.sogou.SogouIMEHomeActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "view"
         }
       }
     },
@@ -3930,20 +2374,10 @@
       "enable": true,
       "activityRules": {
         "com.bytedance.android.openlive.plugin.LivePlayerActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "disabled"
         },
         "com.bytedance.android.openlive.plugin.OpenLiveDummyActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "view"
         }
       }
     },
@@ -3957,12 +2391,7 @@
       "enable": true,
       "activityRules": {
         "com.ss.android.auto.activity.UploadBrowserActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         }
       }
     },
@@ -3971,292 +2400,112 @@
       "enable": true,
       "activityRules": {
         "com.bytedance.ee.bear.document.DocExpandActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.bytedance.ee.bear.drive.core.DriveExpandActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.bytedance.ee.bear.wikiv2.WikiExpandActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.bytedance.lark.webview.container.impl.WebContainerFullScreenOptActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.larksuite.component.universe_design.dialog.UDDialog": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         },
         "com.ss.android.lark.calendar.impl.features.settings.CalendarSettingActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.ss.android.lark.chat.search.ChatInsideSearchActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.ss.android.lark.chatsetting.impl.common_view.page.ChatSettingCommonActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.ss.android.lark.chatsetting.impl.transassistant.TranslateAssistantActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.ss.android.lark.contact.impl.setting.PrivacySettingActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.ss.android.lark.contact.impl.setting.one_way_contact.permission.ChatPermissionActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.ss.android.lark.contact.impl.setting.one_way_contact.privacy_new.PrivacySettingActivityV2": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.ss.android.lark.feed.app.filter.feedfilter.FeedMessageFilterActivityV2": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.ss.android.lark.feed.app.group.create.CreateFeedGroupActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.ss.android.lark.general.search.SearchActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.ss.android.lark.mine.impl.custom_status.UserCustomStatusActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.ss.android.lark.notification.push_diagnose.PushDiagnoseActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.ss.android.lark.notification.setting.impl.badgestyle.BadgeStyleSettingsActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.ss.android.lark.notification.setting.impl.setting.NotificationSettingsActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.ss.android.lark.notification.setting.impl.setting.alive.NotificationAliveActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.ss.android.lark.notification.setting.impl.special_focus.SpecialFocusNotificationActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.ss.android.lark.post.PostMessageActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         },
         "com.ss.android.lark.profile.func.v3.editalias.EditAliasActivityV3": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.ss.android.lark.search.setting.SearchEngineSettingActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.ss.android.lark.setting.page.content.common.impl.duallanguage.DualLanguageSettingActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.ss.android.lark.setting.page.content.common.impl.locale.LanguageSettingActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.ss.android.lark.setting.page.content.common.impl.network.NetworkDiagnoseActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.ss.android.lark.setting.page.content.common.impl.translate.TranslateSettingActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.ss.android.lark.setting.page.content.internal.MineInternalSettingsActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.ss.android.lark.setting.page.content.labs.LabsSettingsActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.ss.android.lark.setting.page.function.SettingPageActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.ss.android.lark.setting.wheniviewachat.WhenIViewAChatActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.ss.android.lark.upgrade.impl.m": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         },
         "com.ss.android.lark.upgrade.setting.about.AboutActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.ss.android.vc.lark.setting.VideoChatSettingActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.ss.android.vc.meeting.module.multi.ByteRTCMeetingActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -4264,101 +2513,38 @@
       "name": "抖音",
       "enable": true,
       "activityRules": {
-        "com.bytedance.android.anniex.container.AnnieXHostActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
-        },
         "com.bytedance.android.anniex.container.popup.SheetBaseDialog": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         },
         "com.bytedance.android.xr.fusion.XrAvCallActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         },
         "com.ss.android.ugc.aweme.bullet.ui.BulletContainerActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.ss.android.ugc.aweme.live.LivePlayActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.ss.android.ugc.aweme.live.LivePlayActivityV2": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.ss.android.ugc.aweme.profile.ui.UserProfileActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.ss.android.ugc.aweme.setting.serverpush.ui.PushSettingManagerActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.ss.android.ugc.aweme.setting.ui.DouYinSettingNewVersionActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         },
         "com.ss.android.ugc.aweme.setting.ui.SettingAccountAndSafetyActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         },
         "com.ss.android.ugc.aweme.setting.ui.SettingCommonProtocolActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         },
         "com.ss.android.ugc.aweme.shortvideo.ui.VideoRecordNewActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         }
       }
     },
@@ -4367,28 +2553,13 @@
       "enable": true,
       "activityRules": {
         "com.ss.android.ugc.aweme.bullet.ui.BulletContainerActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "disabled"
         },
         "com.ss.android.ugc.aweme.live.LivePlayActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "disabled"
         },
         "com.ss.android.ugc.aweme.shortvideo.ui.VideoRecordNewActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "view"
         }
       }
     },
@@ -4397,44 +2568,19 @@
       "enable": true,
       "activityRules": {
         "com.bytedance.locallife.page.pdp.LifePdpActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         },
         "com.bytedance.locallife.page.poi.LifePoiActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.ss.android.ugc.aweme.bullet.ui.BulletContainerActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.ss.android.ugc.aweme.main.MainActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.ss.android.ugc.aweme.search.activity.SearchResultActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -4443,20 +2589,10 @@
       "enable": true,
       "activityRules": {
         "com.ss.android.ugc.aweme.im.business.mediaselectpage.edit.IMEditPreviewActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "disabled"
         },
         "com.ss.android.ugc.aweme.live.LivePlayActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "disabled"
         }
       }
     },
@@ -4465,20 +2601,10 @@
       "enable": true,
       "activityRules": {
         "com.ss.android.ugc.aweme.im.business.mediaselectpage.edit.IMEditPreviewActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "disabled"
         },
         "com.ss.android.ugc.aweme.live.LivePlayActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "disabled"
         }
       }
     },
@@ -4487,12 +2613,7 @@
       "enable": true,
       "activityRules": {
         "com.ss.android.ugc.aweme.detail.ui.DetailActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         }
       }
     },
@@ -4501,12 +2622,7 @@
       "enable": true,
       "activityRules": {
         "com.google.android.material.bottomsheet.BottomSheetDialog": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         }
       }
     },
@@ -4515,12 +2631,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -4534,11 +2645,7 @@
       "enable": true,
       "activityRules": {
         "com.svw.sc.mos.main.ui.MainActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
+          "style": "sf",
           "appNavColorDisabled": 1
         }
       }
@@ -4548,20 +2655,10 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.tal.imonkey.business.launch.activity.MainActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "disabled"
         }
       }
     },
@@ -4575,20 +2672,10 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.idlefish.flutterbridge.flutterboost.boost.FishFlutterBoostActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -4597,20 +2684,11 @@
       "enable": true,
       "activityRules": {
         "com.taobao.android.detail.alittdetail.TTDetailActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         },
         "com.taobao.android.trade.cart.CartActivity": {
-          "mode": 1,
-          "color": 0,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "color",
+          "color": "#00000000"
         }
       }
     },
@@ -4624,20 +2702,10 @@
       "enable": true,
       "activityRules": {
         "com.taobao.movie.android.app.home.activity.MainActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         },
         "com.taobao.movie.android.app.ui.filmdetail.FilmDetailActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         }
       }
     },
@@ -4646,92 +2714,38 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.alibaba.android.ultron.vfw.weex2.highPerformance.widget.UltronTradeHybridActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.alibaba.triver.triver_shop.newShop.ShopActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         },
         "com.taobao.android.sku.widget.SkuDialogFragment*": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
+          "style": "sf",
           "appNavColorDisabled": 1
         },
         "com.taobao.android.tbabilitykit.pop.StdPopActivityGroup": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         },
         "com.taobao.browser.BrowserActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.taobao.search.uniform.SearchActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.taobao.tao.TBMainActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         },
         "com.taobao.tao.welcome.Welcome": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         },
         "com.taobao.themis.container.app.TMSActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.taobao.weex.weexv2.page.WeexV2Activity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -4760,28 +2774,13 @@
       "enable": true,
       "activityRules": {
         "com.tencent.mudule_web.PureWebActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.tencent.qt.qtl.rn.activity.RNHostActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.tencent.qtl.setting.SettingActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -4815,132 +2814,55 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.tencent.mm.framework.app.UIPageFragmentActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.tencent.mm.plugin.appbrand.ui.AppBrandPluginUI": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.tencent.mm.plugin.appbrand.ui.AppBrandUI*": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         },
         "com.tencent.mm.plugin.finder.ui.FinderHomeAffinityUI": {
-          "mode": 2,
-          "color": 1,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.tencent.mm.plugin.finder.ui.FinderHomeUI": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.tencent.mm.plugin.gallery.ui.AlbumPreviewUI": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "disabled"
         },
         "com.tencent.mm.plugin.gallery.ui.ImagePreviewUI": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         },
         "com.tencent.mm.plugin.lite.ui.WxaLiteAppLiteUI": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.tencent.mm.plugin.lite.ui.WxaLiteAppSheetUI": {
-          "mode": 1,
-          "color": 0,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "color",
+          "color": "#00000000"
         },
         "com.tencent.mm.plugin.sns.ui.SnsCommentDetailUI": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "disabled"
         },
         "com.tencent.mm.plugin.webview.ui.tools.MMWebViewUI": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.tencent.mm.ui.LauncherUI": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 1,
+          "style": "sf",
           "dialogMode": 2,
-          "popupMode": 2,
-          "appNavColorDisabled": 0
+          "popupMode": 2
         },
         "com.tencent.mm.ui.chatting.ChattingUI": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         },
         "com.tencent.mm.ui.conversation.NewBizConversationUI": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "view"
         },
         "com.tencent.mm.ui.vas.VASCommonActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -4949,52 +2871,22 @@
       "enable": true,
       "activityRules": {
         "com.qzone.reborn.feedpro.activity.QzoneFriendFeedProActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.tencent.luggage.wxa.standalone_open_runtime.container.WxaContainerMultiTaskActivity*": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "disabled"
         },
         "com.tencent.mobileqq.activity.MultiForwardActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.tencent.mobileqq.activity.PublicFragmentActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.tencent.mobileqq.activity.QPublicFragmentActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.tencent.mobileqq.activity.QPublicTransFragmentActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -5003,12 +2895,7 @@
       "enable": true,
       "activityRules": {
         "com.tencent.mtt.MainActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "disabled"
         }
       }
     },
@@ -5022,20 +2909,10 @@
       "enable": true,
       "activityRules": {
         "com.tencent.qqlive.kmm.VideoDetailKmmActivityBk": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         },
         "com.tencent.qqlive.ona.offline.client.cachechoice.CacheChoiceActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "disabled"
         }
       }
     },
@@ -5044,20 +2921,11 @@
       "enable": true,
       "activityRules": {
         "com.tencent.qqmusic.activity.AppStarterActivity": {
-          "mode": -1,
-          "color": null,
-          "sf_sampling_mode": 1,
-          "dialogMode": 0,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf",
+          "dialogMode": 0
         },
         "com.tencent.qqmusic.activity.base.FragmentActivityWithMinibar": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         }
       }
     },
@@ -5071,12 +2939,7 @@
       "enable": true,
       "activityRules": {
         "com.tencent.mobileqq.activity.SplashActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         }
       }
     },
@@ -5120,12 +2983,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 1,
-          "color": null,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         }
       }
     },
@@ -5134,20 +2992,10 @@
       "enable": true,
       "activityRules": {
         "com.tmall.wireless.gallery.TMDetailActivity": {
-          "mode": 2,
-          "color": 1,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.tmall.wireless.themis.container.TMThemisActivity": {
-          "mode": 2,
-          "color": 1,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -5171,12 +3019,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -5185,12 +3028,7 @@
       "enable": true,
       "activityRules": {
         "com.twitter.app.main.MainActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -5199,12 +3037,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -5213,12 +3046,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -5227,28 +3055,14 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.ume.android.lib.common.module.weex.WeexActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         },
         "com.umetrip.android.msky.homepage.activity.UmeHomeActivity": {
-          "mode": 1,
-          "color": -1,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "color",
+          "color": "#FFFFFFFF"
         }
       }
     },
@@ -5262,12 +3076,7 @@
       "enable": true,
       "activityRules": {
         "com.unionpay.uppay.PayActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -5276,12 +3085,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -5290,12 +3094,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -5304,20 +3103,10 @@
       "enable": true,
       "activityRules": {
         "com.uu898.uuhavequality.rent.activity.LeaseRecordActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.uu898.uuhavequality.stock.PurchaseRecordActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -5326,12 +3115,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -5345,20 +3129,10 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.jason.videocat.ui.activities.MainActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "disabled"
         }
       }
     },
@@ -5367,44 +3141,19 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.wangc.bill.activity.AddBillActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "disabled"
         },
         "com.wangc.bill.activity.BillInfoActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "disabled"
         },
         "com.wangc.bill.activity.MainActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "disabled"
         },
         "com.wangc.bill.dialog.t2": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "disabled"
         }
       }
     },
@@ -5413,52 +3162,23 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "view"
         },
         "com.newimagelib.ImageDetailActivity": {
-          "mode": 1,
-          "color": -16777216,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "color",
+          "color": "#000000FF"
         },
         "com.weico.international.activity.LogoActivity": {
-          "mode": 2,
-          "color": 1,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.weico.international.activity.MainFragmentActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "view"
         },
         "com.weico.international.activity.SeaStatusDetailActivity": {
-          "mode": 2,
-          "color": 1,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.weico.international.ui.ad.AdActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "view"
         }
       }
     },
@@ -5477,12 +3197,7 @@
       "enable": true,
       "activityRules": {
         "com.zhuanzhuan.module.webview.page.WebContainerDialogActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "view"
         }
       }
     },
@@ -5496,12 +3211,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -5510,12 +3220,8 @@
       "enable": true,
       "activityRules": {
         "com.xhey.xcamera.ui.camera.picNew.PreviewActivity": {
-          "mode": 1,
-          "color": -1,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "color",
+          "color": "#FFFFFFFF"
         }
       }
     },
@@ -5524,12 +3230,8 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 1,
-          "color": 0,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "color",
+          "color": "#00000000"
         }
       }
     },
@@ -5538,36 +3240,16 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.xiaomi.miot.store.mirn.RNMainActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         },
         "com.xiaomi.shop.sharelib.ShareDialog": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "disabled"
         },
         "com.xiaomi.shop2.activity.MainActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         }
       }
     },
@@ -5576,20 +3258,10 @@
       "enable": true,
       "activityRules": {
         "com.xiaomi.miot.store.ui.MiotStoreMainActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.xiaomi.smarthome.miio.consumables.ConsumablesCenterActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -5598,12 +3270,7 @@
       "enable": true,
       "activityRules": {
         "com.xiaomi.vipaccount.newbrowser.NormalWebActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -5612,12 +3279,7 @@
       "enable": true,
       "activityRules": {
         "com.ximalaya.ting.android.host.activity.MainActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         }
       }
     },
@@ -5626,108 +3288,40 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "disabled"
         },
         "com.xingin.alpha.audience.v2.AlphaAudienceActivityV2": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         },
         "com.xingin.im.ui.activity.ChatActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "disabled"
         },
         "com.xingin.im.ui.activity.GroupChatActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "disabled"
         },
         "com.xingin.matrix.browsinghistory.BrowsingHistoryPageActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.xingin.matrix.detail.activity.DetailFeedActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "view"
         },
         "com.xingin.matrix.notedetail.NoteDetailActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "disabled"
         },
         "com.xingin.matrix.setting.*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.xingin.matrix.setting.about.AboutActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
-        },
-        "com.xingin.reactnative.ui.XhsReactActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.xingin.securityaccount.activity.SecurityAccountActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.xingin.xhs.index.v2.IndexActivityV2": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "disabled"
         },
         "laa.y": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -5736,20 +3330,10 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.xueersi.parentsmeeting.module.home.HomeV2Activity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "disabled"
         }
       }
     },
@@ -5758,20 +3342,10 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.xueersi.parentsmeeting.module.home.HomeV2Activity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "disabled"
         }
       }
     },
@@ -5780,12 +3354,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -5814,20 +3383,10 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.xueersi.parentsmeeting.module.home.HomeV2Activity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "disabled"
         }
       }
     },
@@ -5836,12 +3395,7 @@
       "enable": true,
       "activityRules": {
         "com.xunlei.downloadprovider.download.taskdetails.newui.DownloadDetailsActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -5850,28 +3404,13 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.xunmeng.pinduoduo.activity.NewPageActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.xunmeng.pinduoduo.ui.activity.HomeActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         }
       }
     },
@@ -5890,28 +3429,15 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.yiban.app.activity.SettingMainActivity": {
-          "mode": 1,
-          "color": -1,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "color",
+          "color": "#FFFFFFFF"
         },
         "com.yiban.app.home.activity.HomeActivityV2": {
-          "mode": 1,
-          "color": -1,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "color",
+          "color": "#FFFFFFFF"
         }
       }
     },
@@ -5935,12 +3461,7 @@
       "enable": true,
       "activityRules": {
         "com.youdao.translator.activity.MainActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -5959,12 +3480,7 @@
       "enable": true,
       "activityRules": {
         "com.yzj.kaipanh.newindex.ui.main.MainActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         }
       }
     },
@@ -5978,12 +3494,7 @@
       "enable": true,
       "activityRules": {
         "com.zhihu.android.zvideo_publish.editor.DbEditorHostActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "view"
         }
       }
     },
@@ -5992,44 +3503,19 @@
       "enable": true,
       "activityRules": {
         "com.zhihu.android.library.sharecore.activity.ShareHostActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.zhihu.daily.android.epic.MainActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.zhihu.daily.android.epic.activity.BrowserActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.zhihu.daily.android.epic.activity.FavoritesActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.zhihu.daily.android.epic.activity.NotificationsActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -6038,12 +3524,7 @@
       "enable": true,
       "activityRules": {
         "com.radish.radish.MainActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         }
       }
     },
@@ -6052,12 +3533,8 @@
       "enable": true,
       "activityRules": {
         "com.autoclicker.clicker.MainActivity": {
-          "mode": 1,
-          "color": -328966,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "color",
+          "color": "#FAFAFAFF"
         }
       }
     },
@@ -6071,12 +3548,7 @@
       "enable": true,
       "activityRules": {
         "cn.com.zte.rn.RNServiceActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -6085,28 +3557,15 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.lxj.xpopup.core.FullScreenDialog": {
-          "mode": 1,
-          "color": -15066071,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "color",
+          "color": "#1A1C29FF"
         },
         "com.zwo.commiscope.web.ComTitleWebNativeActivity": {
-          "mode": 1,
-          "color": -15461354,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "color",
+          "color": "#141416FF"
         }
       }
     },
@@ -6115,20 +3574,11 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.zzw.october.MainActivity": {
-          "mode": 1,
-          "color": -1,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "color",
+          "color": "#FFFFFFFF"
         }
       }
     },
@@ -6137,12 +3587,8 @@
       "enable": true,
       "activityRules": {
         "ctrip.android.flutter.containers.TransparentTripFlutterActivity": {
-          "mode": 1,
-          "color": -1,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "color",
+          "color": "#FFFFFFFF"
         }
       }
     },
@@ -6151,12 +3597,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -6165,12 +3606,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -6179,12 +3615,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -6193,20 +3624,10 @@
       "enable": true,
       "activityRules": {
         "gcd.dvpl.activity.ActivityMain": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "gcd.dvpl.view.AppChooser": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -6215,12 +3636,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -6229,12 +3645,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -6243,28 +3654,13 @@
       "enable": true,
       "activityRules": {
         "acr.browser.lightning.activity.MainActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "idm.internet.download.manager.IDMSettingsActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "idm.internet.download.manager.MainActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -6273,12 +3669,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -6287,36 +3678,16 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "io.legado.app.ui.book.read.ReadBookActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "disabled"
         },
         "io.legado.app.ui.config.ConfigActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "disabled"
         },
         "io.legado.app.ui.main.MainActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "disabled"
         }
       }
     },
@@ -6325,11 +3696,7 @@
       "enable": true,
       "activityRules": {
         "io.legado.app.ui.book.read.ReadBookActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
+          "style": "sf",
           "appNavColorDisabled": 1
         }
       }
@@ -6339,12 +3706,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 1,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "view"
         }
       }
     },
@@ -6363,12 +3725,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -6377,12 +3734,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -6391,12 +3743,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -6410,12 +3757,7 @@
       "enable": true,
       "activityRules": {
         "org.xmsleep.app.MainActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -6424,20 +3766,10 @@
       "enable": true,
       "activityRules": {
         "synjones.commerce.views.SplashActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "synjones.commerce.views.WebOpenBeanAppActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -6446,12 +3778,7 @@
       "enable": true,
       "activityRules": {
         "io.dcloud.PandoraEntryActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         }
       }
     },
@@ -6460,132 +3787,53 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "bs.c": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "disabled"
         },
         "com.bilibili.app.comm.opus.lightpublish.page.comment.CommentLightPublishDialogFragment*": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         },
         "com.bilibili.biligame.ui.GameCenterHomeActivity": {
-          "mode": 1,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "view"
         },
         "com.bilibili.bililive.room.ui.roomv3.LiveRoomActivityV3": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.bilibili.bililive.room.ui.roomv3.LiveRoomTranslucentActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.bilibili.bplus.followinglist.page.browser.ui.LightBrowserActivityV2": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "disabled"
         },
         "com.bilibili.bplus.im.conversation.ConversationActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "disabled"
         },
         "com.bilibili.lib.ui.ComposeActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.bilibili.lib.ui.menu.BottomDialogMenu": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "disabled"
         },
         "com.bilibili.music.podcast.MusicPodcastMainActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "view"
         },
         "com.bilibili.ship.theseus.detail.UnitedBizDetailsActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "com.mall.ui.page.base.MallFragmentLoaderActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         },
         "tv.danmaku.bili.MainActivityV2": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "sf"
         },
         "tv.danmaku.bili.ui.videodownload.VideoDownloadListActivity": {
-          "mode": 1,
-          "color": 0,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "color",
+          "color": "#00000000"
         },
         "tv.danmaku.bili.ui.webview.MWebActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -6599,12 +3847,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     },
@@ -6613,12 +3856,7 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
+          "style": "floating"
         }
       }
     }

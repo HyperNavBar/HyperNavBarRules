@@ -6,10 +6,14 @@
     现在应用会同时订阅「官方规则源」与「社区规则源」，社区规则源在上（合并时优先），
     官方规则源在下（作为基底），因此社区规则源只需保留与官方不同的自定义规则。
 
-对比逻辑：
-    - 同时与最近两个官方快照对比（backup_os3.3_260410.json 与 backup_os4.0_260624.json），
-      因为部分规则是从旧版本继承而来，仅对比新版本可能遗漏。
-    - 仅当活动规则与官方快照中同名活动规则完全一致（规范化后）时，才视为重复并删除。
+对比逻辑（新格式 style 主参数）：
+    - 社区规则源（rules/immerse_rules.json）已是新格式（style 字段），直接读取 NBIRules。
+    - 官方快照（backup/*.json）是官方格式（mode 字段），对每个 activity 规则调用
+      rule.py 的 ActivityRule.normalize_from_official() 归一化为新格式后再对比。
+    - 双方都规整为「新格式规范形」（style + color hex + 高级字段）后比较，
+      相等则视为重复并删除。
+    - 关键：官方 mode=0 + sf_sampling_mode=1 归一化为 style=sf，与社区规则 style=sf
+      行为等价并正确匹配（若反向把 style 展开为官方 mode 会因 mode 不同而漏判）。
     - 只删除 activity 层级的规则，保留应用层级的 name / enable / disableVersionCode 等字段。
 
 用法：
@@ -21,8 +25,14 @@ import json
 import os
 import sys
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
+from rule import ActivityRule
+from utils import argb_int_to_rgba
+
+# 新格式字段默认值（style 主参数）
 DEFAULTS = {
-    "mode": -1,
+    "style": "disabled",
     "color": None,
     "sf_sampling_mode": 0,
     "dialogMode": 1,
@@ -49,25 +59,30 @@ def write_json(path, data):
 
 
 def normalize_color(value):
-    """将颜色值统一为可比较的规范形式。"""
+    """将颜色值统一为可比较的规范形式（大写 hex，去 #）。"""
     if value is None:
         return None
+    if isinstance(value, int):
+        return argb_int_to_rgba(value)
     if isinstance(value, str):
-        try:
-            return int(value)
-        except ValueError:
-            return value.strip().lower()
+        return value.strip().upper().lstrip("#")
     return value
 
 
 def normalize_rule(rule):
-    """将活动规则填充默认值并规范化颜色，便于比较。"""
+    """将活动规则规整为新格式规范形（style 主参数 + 高级字段），便于比较。"""
     result = {}
     for key, default in DEFAULTS.items():
         value = rule.get(key, default)
         if key == "color":
             value = normalize_color(value)
         result[key] = value
+    # sf_sampling_mode 仅 -1/255 参与比较（其余值等价于默认 0）
+    if rule.get("sf_sampling_mode", 0) not in (-1, 255):
+        result["sf_sampling_mode"] = 0
+    # color 仅在 style=color 时参与比较
+    if result["style"] != "color":
+        result["color"] = None
     # viewRules 仅当双方都存在时参与比较（若仅一方有则视为不同）
     if "viewRules" in rule:
         result["viewRules"] = rule["viewRules"]
@@ -75,14 +90,25 @@ def normalize_rule(rule):
 
 
 def load_official_rules(snapshots):
-    """加载所有官方快照的 NBIRules，返回列表。"""
+    """加载所有官方快照的 NBIRules，归一化为新格式规范形后返回列表。"""
     official_list = []
     for path in snapshots:
         if not os.path.exists(path):
             print(f"警告：官方快照不存在，跳过: {path}", file=sys.stderr)
             continue
         data = read_json(path)
-        official_list.append(data.get("NBIRules", {}))
+        normalized = {}
+        for package, app_rule in data.get("NBIRules", {}).items():
+            if not isinstance(app_rule, dict):
+                continue
+            activities = app_rule.get("activityRules")
+            if not isinstance(activities, dict):
+                continue
+            normalized[package] = {
+                activity: normalize_rule(ActivityRule.normalize_from_official(rule))
+                for activity, rule in activities.items()
+            }
+        official_list.append(normalized)
     return official_list
 
 
@@ -102,13 +128,10 @@ def remove_duplicates(community_rules, official_list):
         for activity, rule in activity_rules.items():
             normalized = normalize_rule(rule)
             for official in official_list:
-                official_app = official.get(package)
-                if not isinstance(official_app, dict):
-                    continue
-                official_activities = official_app.get("activityRules")
+                official_activities = official.get(package)
                 if not isinstance(official_activities, dict):
                     continue
-                if activity in official_activities and normalize_rule(official_activities[activity]) == normalized:
+                if activity in official_activities and official_activities[activity] == normalized:
                     removed.append(activity)
                     break
 

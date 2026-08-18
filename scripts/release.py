@@ -9,15 +9,15 @@ today = datetime.now(tz_utc8).strftime("%y%m%d")
 
 merge_path = "rules/merge.json"
 
-# 如果 merge.json 非空，先合并本地规则
+# 如果 merge.json 非空，先合并本地规则（新格式 style 主参数）
 if os.path.exists(merge_path) and os.path.getsize(merge_path) > 0:
-    data = importFromOS33("rules/immerse_rules.json")
-    data.updateFromRule(importFromOS33(merge_path))
-    save_file("rules/immerse_rules.json", data.toData("33"))
+    data = Rule.fromData("dict", read_json_file("rules/immerse_rules.json"))
+    data.updateFromRule(Rule.fromData("dict", read_json_file(merge_path)))
+    save_file("rules/immerse_rules.json", data.toData("dict"))
     save_file(merge_path, "")  # 合并后清空
 
-# 读取规则并更新 dataVersion
-data = importFromOS33("rules/immerse_rules.json")
+# 读取规则（新格式 style 主参数）并更新 dataVersion
+data = Rule.fromData("dict", read_json_file("rules/immerse_rules.json"))
 result = json.loads(data.toData("dict"))
 
 # 移除与官方配置源重复的活动规则（社区规则源只保留自定义规则）
