@@ -1,6 +1,6 @@
 {
   "name": "社区规则源",
-  "dataVersion": "260818",
+  "dataVersion": "260823",
   "modules": "HyperNavBar_config",
   "modifyApps": "modifyApps",
   "NBIRules": {
@@ -2137,11 +2137,23 @@
         }
       }
     },
+    "com.sangfor.vpn.client.phone": {
+      "name": "EasyConnect",
+      "enable": true,
+      "activityRules": {
+        "*": {
+          "style": "sf"
+        }
+      }
+    },
     "com.sankuai.meituan": {
       "name": "美团",
       "enable": true,
       "activityRules": {
         "*": {
+          "style": "floating"
+        },
+        "com.meituan.android.mrn.container.MRNStandardActivity": {
           "style": "floating"
         },
         "com.meituan.android.pt.homepage.activity.MainActivity": {
@@ -3058,7 +3070,7 @@
           "style": "floating"
         },
         "com.ume.android.lib.common.module.weex.WeexActivity": {
-          "style": "sf"
+          "style": "floating"
         },
         "com.umetrip.android.msky.homepage.activity.UmeHomeActivity": {
           "style": "color",
@@ -3187,6 +3199,18 @@
       "enable": true,
       "activityRules": {}
     },
+    "com.wisedu.cpdaily.nju": {
+      "name": "南京大学",
+      "enable": true,
+      "activityRules": {
+        "com.wisorg.wisedu.common.BrowsePageActivity": {
+          "style": "sf"
+        },
+        "com.wisorg.wisedu.common.ContainerActivity": {
+          "style": "floating"
+        }
+      }
+    },
     "com.wuba": {
       "name": "58同城",
       "enable": true,
@@ -3243,7 +3267,7 @@
           "style": "floating"
         },
         "com.xiaomi.miot.store.mirn.RNMainActivity": {
-          "style": "sf"
+          "style": "floating"
         },
         "com.xiaomi.shop.sharelib.ShareDialog": {
           "style": "disabled"
