@@ -1,6 +1,6 @@
 {
   "name": "社区规则源",
-  "dataVersion": "260823",
+  "dataVersion": "260826",
   "modules": "HyperNavBar_config",
   "modifyApps": "modifyApps",
   "NBIRules": {
@@ -3837,9 +3837,6 @@
         "com.bilibili.lib.ui.ComposeActivity": {
           "style": "floating"
         },
-        "com.bilibili.video.story.StoryVideoActivity": {
-          "style": "floating"
-        },
         "com.bilibili.lib.ui.menu.BottomDialogMenu": {
           "style": "disabled"
         },
@@ -3847,6 +3844,9 @@
           "style": "view"
         },
         "com.bilibili.ship.theseus.detail.UnitedBizDetailsActivity": {
+          "style": "floating"
+        },
+        "com.bilibili.video.story.StoryVideoActivity": {
           "style": "floating"
         },
         "com.mall.ui.page.base.MallFragmentLoaderActivity": {
