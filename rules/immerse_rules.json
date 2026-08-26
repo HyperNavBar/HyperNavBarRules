@@ -3837,6 +3837,9 @@
         "com.bilibili.lib.ui.ComposeActivity": {
           "style": "floating"
         },
+        "com.bilibili.video.story.StoryVideoActivity": {
+          "style": "floating"
+        },
         "com.bilibili.lib.ui.menu.BottomDialogMenu": {
           "style": "disabled"
         },
