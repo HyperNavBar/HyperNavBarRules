@@ -1,6 +1,6 @@
 {
   "name": "社区规则源",
-  "dataVersion": "260826",
+  "dataVersion": "260909",
   "modules": "HyperNavBar_config",
   "modifyApps": "modifyApps",
   "NBIRules": {
@@ -3194,6 +3194,15 @@
         }
       }
     },
+    "com.winplay.installer": {
+      "name": "WinPlay安装器",
+      "enable": true,
+      "activityRules": {
+        "*": {
+          "style": "sf"
+        }
+      }
+    },
     "com.wisedu.cpdaily": {
       "name": "今日校园",
       "enable": true,
@@ -3839,9 +3848,6 @@
         },
         "com.bilibili.lib.ui.menu.BottomDialogMenu": {
           "style": "disabled"
-        },
-        "com.bilibili.music.podcast.MusicPodcastMainActivity": {
-          "style": "view"
         },
         "com.bilibili.ship.theseus.detail.UnitedBizDetailsActivity": {
           "style": "floating"
