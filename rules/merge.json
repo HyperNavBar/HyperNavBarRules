@@ -1,0 +1,26 @@
+{
+  "name": "沉浸规则",
+  "dataVersion": "260907",
+  "modules": "HyperNavBar_config",
+  "modifyApps": "modifyApps",
+  "NBIRules": {
+    "com.winplay.installer": {
+      "name": "WinPlay安装器",
+      "enable": true,
+      "activityRules": {
+        "*": {
+          "style": "sf"
+        }
+      }
+    },
+    "tv.danmaku.bili": {
+      "name": "哔哩哔哩",
+      "enable": true,
+      "activityRules": {
+        "com.bilibili.music.podcast.MusicPodcastMainActivity": {
+          "style": "sf"
+        }
+      }
+    }
+  }
+}
