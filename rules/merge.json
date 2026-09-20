@@ -1,0 +1,17 @@
+{
+    "name": "沉浸规则",
+    "dataVersion": "260919",
+    "modules": "HyperNavBar_config",
+    "modifyApps": "modifyApps",
+    "NBIRules": {
+        "com.weaver.emobile7": {
+            "name": "EMobile7",
+            "enable": true,
+            "activityRules": {
+                "weaver.fw.com.MainActivity": {
+                    "style": "view"
+                }
+            }
+        }
+    }
+}

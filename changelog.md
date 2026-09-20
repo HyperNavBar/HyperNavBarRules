@@ -1,4 +1,16 @@
 # 更新日志
+
+## 2026-09-20
+
+### 新增
+
+- EMobile7 (__@damn__)
+
+### 贡献者
+
+@damn
+[@Ianzb](https://github.com/Ianzb)
+
 ## 2026-09-09
 
 ### 新增
@@ -12,6 +24,7 @@
 ### 贡献者
 
 [@Ianzb](https://github.com/Ianzb)
+
 ## 2026-08-26
 
 ### 优化
