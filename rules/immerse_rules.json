@@ -1,6 +1,6 @@
 {
   "name": "社区规则源",
-  "dataVersion": "260909",
+  "dataVersion": "260920",
   "modules": "HyperNavBar_config",
   "modifyApps": "modifyApps",
   "NBIRules": {
@@ -3166,6 +3166,15 @@
         },
         "com.wangc.bill.dialog.t2": {
           "style": "disabled"
+        }
+      }
+    },
+    "com.weaver.emobile7": {
+      "name": "EMobile7",
+      "enable": true,
+      "activityRules": {
+        "weaver.fw.com.MainActivity": {
+          "style": "view"
         }
       }
     },
