@@ -621,6 +621,7 @@
     "com.byyoung.setting": {
       "name": "爱玩机工具箱",
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "*": {
           "style": "floating"
