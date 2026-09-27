@@ -2828,8 +2828,8 @@
     },
     "com.tencent.mm": {
       "name": "微信",
-      "hookExcluded": true,
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "*": {
           "style": "floating"
@@ -2886,8 +2886,8 @@
     },
     "com.tencent.mobileqq": {
       "name": "QQ",
-      "hookExcluded": true,
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.qzone.reborn.feedpro.activity.QzoneFriendFeedProActivity": {
           "style": "floating"
