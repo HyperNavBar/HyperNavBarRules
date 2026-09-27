@@ -2828,6 +2828,7 @@
     },
     "com.tencent.mm": {
       "name": "微信",
+      "hookExcluded": true,
       "enable": true,
       "activityRules": {
         "*": {
@@ -2885,6 +2886,7 @@
     },
     "com.tencent.mobileqq": {
       "name": "QQ",
+      "hookExcluded": true,
       "enable": true,
       "activityRules": {
         "com.qzone.reborn.feedpro.activity.QzoneFriendFeedProActivity": {
