@@ -162,11 +162,13 @@ class ActivityRule:
 
 
 class AppRule:
-    def __init__(self, mode: str, package_name: str, name: str = "", enable: bool = True, disableVersionCode: int = None, activityRules: dict | str = None, **args):
+    def __init__(self, mode: str, package_name: str, name: str = "", enable: bool = True, disableVersionCode: int = None, hookExcluded: bool = None, activityRules: dict | str = None, **args):
         self.package_name = package_name
         self.name = name
         self.enable = enable
         self.disableVersionCode = disableVersionCode
+        # None 表示未显式声明该字段（输出时省略）；显式 false 会被保留
+        self.hookExcluded = None if hookExcluded is None else bool(hookExcluded)
 
         if mode == "22":
             self.activityRules = {data[0]: ActivityRule.fromData(mode, data.split(":")[0], data) for data in activityRules.split(",")} if activityRules else {}
@@ -178,6 +180,8 @@ class AppRule:
             result = {"name": self.name, "enable": self.enable}
             if self.disableVersionCode is not None:
                 result["disableVersionCode"] = self.disableVersionCode
+            if self.hookExcluded is not None:
+                result["hookExcluded"] = self.hookExcluded
             sorted_activity_rules = sorted(self.activityRules.items(), key=lambda x: x[0])
             result["activityRules"] = {name: rule.toData(mode) for name, rule in sorted_activity_rules}
             return result
@@ -206,6 +210,8 @@ class AppRule:
                     self.activityRules[name] = ActivityRule.fromData("dict", name, rule)
         if "enable" in data:
             self.enable = data["enable"]
+        if "hookExcluded" in data:
+            self.hookExcluded = bool(data["hookExcluded"])
         return self
 
     def updateFromRule(self, rule):

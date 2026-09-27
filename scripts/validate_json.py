@@ -16,9 +16,13 @@ if modules not in VALID_MODULES:
 
 # 2) 校验每个 activity 的 style 值合法（新格式 style 主参数；官方格式 activity 含 mode 字段）
 bad = []
+bad_app = []
 for package, app_rule in raw.get("NBIRules", {}).items():
     if not isinstance(app_rule, dict):
         continue
+    hook = app_rule.get("hookExcluded")
+    if hook is not None and not isinstance(hook, bool):
+        bad_app.append((package, hook))
     activities = app_rule.get("activityRules")
     if not isinstance(activities, dict):
         continue
@@ -29,6 +33,12 @@ for package, app_rule in raw.get("NBIRules", {}).items():
             style = rule.get("style")
             if style not in ActivityRule.VALID_STYLES:
                 bad.append((package, activity, style))
+
+if bad_app:
+    for package, value in bad_app:
+        print(f"非法 hookExcluded：{package} = {value!r}（应为布尔值）", file=sys.stderr)
+    print("错误：应用级 hookExcluded 必须为布尔值", file=sys.stderr)
+    sys.exit(1)
 
 if bad:
     for package, activity, style in bad:

@@ -1,5 +1,19 @@
 # 更新日志
 
+## 2026-09-27
+
+### 新增
+
+- 支持应用级 `hookExcluded` 字段：标记该应用不注入模块，用于会检测 Xposed 注入并主动退出的应用（详见 [document.md](document.md)）
+
+### 优化
+
+- 航旅纵横、学信网：标记 `hookExcluded`（检测到注入会主动退出，无法适配）
+
+### 贡献者
+
+[@Ianzb](https://github.com/Ianzb)
+
 ## 2026-09-20
 
 ### 新增

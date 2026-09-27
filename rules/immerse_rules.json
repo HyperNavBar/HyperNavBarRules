@@ -44,6 +44,7 @@
     "cn.com.chsi.chsiapp": {
       "name": "学信网",
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "cn.com.chsi.chsiapp.MainActivity": {
           "style": "color",
@@ -3065,6 +3066,7 @@
     "com.umetrip.android.msky.app": {
       "name": "航旅纵横",
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "*": {
           "style": "floating"
