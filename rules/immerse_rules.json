@@ -636,6 +636,9 @@
       "activityRules": {
         "com.cainiao.wireless.components.hybrid.windvane.activity.GuoGuoNewWebViewActivity": {
           "style": "floating"
+        },
+        "com.cainiao.wireless.homepage.view.activity.HomePageActivity": {
+          "style": "view"
         }
       }
     },

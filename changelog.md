@@ -9,10 +9,12 @@
 ### 优化
 
 - 航旅纵横、学信网：标记 `hookExcluded`（检测到注入会主动退出，无法适配）
+- 菜鸟 (__@damn__)
 
 ### 贡献者
 
 [@Ianzb](https://github.com/Ianzb)
+@damn
 
 ## 2026-09-20
 
