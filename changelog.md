@@ -6,6 +6,7 @@
 
 - `hookExcluded` **默认值改为 `true`**：默认不把模块注入第三方应用进程，避免被应用检测到 Hook；仅需应用进程内取色（非全屏 / 分屏采样）的应用才显式设为 `false`（详见 [document.md](document.md)）
 - 规则数据（社区源 `rules/immerse_rules.json` 与官方源 `backup/backup.json`）已为全部应用显式写入 `hookExcluded: true`，使**旧版本应用同样不再注入**模块
+- 生成流程（`scripts/rule.py`、`scripts/remove_duplicates.py`）与校验（`scripts/validate_json.py`）统一保证：**所有应用始终显式写出 `hookExcluded`**，不再省略默认值
 
 ## 2026-09-27
 

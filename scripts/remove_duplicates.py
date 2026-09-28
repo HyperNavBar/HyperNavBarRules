@@ -166,6 +166,11 @@ def main():
 
     removed_total, affected_apps = remove_duplicates(community_rules, official_list)
 
+    # 始终显式写出 hookExcluded（默认 true）：旧版本应用默认值为 false，只有显式 true 才能让旧版本也不注入
+    for app_rule in community_data.get("NBIRules", {}).values():
+        if isinstance(app_rule, dict):
+            app_rule.setdefault("hookExcluded", True)
+
     write_json(output_path, community_data)
 
     print(f"完成：删除 {removed_total} 条重复活动规则，涉及 {affected_apps} 个应用")

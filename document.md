@@ -77,7 +77,7 @@ Pull Request 前建议在本地进行验证，提交时确保已填写 [更新�
     "应用包名": {
       "name": "应用名称（可选）",
       "enable": true,
-      //"hookExcluded": true,        // 排除 Hook：该应用不注入模块（用于反注入、注入即闪退的应用）
+      "hookExcluded": true,        // 排除 Hook：该应用不注入模块（默认 true，生成时始终显式写出）
       "activityRules": {
         "Activity名称": {
           "style": "沉浸样式（view / sf / color / floating / disabled 等）"
@@ -125,8 +125,9 @@ Pull Request 前建议在本地进行验证，提交时确保已填写 [更新�
 - 只要有一个为 true 就启用，两个都为 false 才禁用
 
 > `hookExcluded` **默认 `true`**：默认不把模块注入第三方应用进程（不加入 LSPosed 作用域），避免被应用检测到 Hook。
+> - **生成时始终显式写出**：所有应用（含使用默认值的 `hookExcluded: true`）在规则文件生成/保存时都会显式写出该字段，不省略。因为旧版本应用默认值为 `false`，只有显式 `true` 才能让旧版本也不注入。
 > - 该字段只控制是否注入到**应用进程**，**不影响规则是否生效**——规则始终由 system_server 注入，对所有应用生效；只有需要应用进程内取色（非全屏 / 分屏采样）的应用才需要显式设为 `false`。
-> - 应用规则时只做「取消」不做「主动申请」：`hookExcluded: true`（含未声明）的应用会被移出作用域。
+> - 应用规则时按规则列表重写作用域：`hookExcluded: false` 的应用自动加入作用域；不在规则列表（含 `hookExcluded: true`）的应用自动移出，仅 system（系统框架）始终保留。
 
 <br>
 

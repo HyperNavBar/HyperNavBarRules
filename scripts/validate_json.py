@@ -21,7 +21,8 @@ for package, app_rule in raw.get("NBIRules", {}).items():
     if not isinstance(app_rule, dict):
         continue
     hook = app_rule.get("hookExcluded")
-    if hook is not None and not isinstance(hook, bool):
+    # 始终显式写出 hookExcluded（默认 true）：旧版本应用默认值为 false，缺失会导致旧版本仍注入
+    if not isinstance(hook, bool):
         bad_app.append((package, hook))
     activities = app_rule.get("activityRules")
     if not isinstance(activities, dict):
@@ -36,8 +37,8 @@ for package, app_rule in raw.get("NBIRules", {}).items():
 
 if bad_app:
     for package, value in bad_app:
-        print(f"非法 hookExcluded：{package} = {value!r}（应为布尔值）", file=sys.stderr)
-    print("错误：应用级 hookExcluded 必须为布尔值", file=sys.stderr)
+        print(f"非法或缺失 hookExcluded：{package} = {value!r}（必须显式写出布尔值）", file=sys.stderr)
+    print("错误：每个应用都必须显式声明布尔值 hookExcluded（默认 true）", file=sys.stderr)
     sys.exit(1)
 
 if bad:
