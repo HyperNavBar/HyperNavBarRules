@@ -180,10 +180,8 @@ class AppRule:
             result = {"name": self.name, "enable": self.enable}
             if self.disableVersionCode is not None:
                 result["disableVersionCode"] = self.disableVersionCode
-            # 默认 True（不注入应用进程）时省略，仅显式开启注入（false）才写出，
-            # 保持规则文件精简，并兼容旧版本应用（其默认值为 false）。
-            if not self.hookExcluded:
-                result["hookExcluded"] = False
+            # 始终显式写出：旧版本应用默认值为 false，只有显式 true 才能让旧版本也不注入
+            result["hookExcluded"] = self.hookExcluded
             sorted_activity_rules = sorted(self.activityRules.items(), key=lambda x: x[0])
             result["activityRules"] = {name: rule.toData(mode) for name, rule in sorted_activity_rules}
             return result

@@ -6,6 +6,7 @@
   "NBIRules": {
     "com.seetong.app.seetong": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.seetong.app.seetong.ui.AboutActivity": {
           "mode": 1,
@@ -19,6 +20,7 @@
     },
     "cn.com.chsi.chsiapp": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "*": {
           "mode": 0,
@@ -32,6 +34,7 @@
     },
     "com.tencent.mobileqq": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.tencent.sqshow.zootopia.recommend.main.ZPlanMainRecommendActivity": {
           "mode": 2,
@@ -101,6 +104,7 @@
     },
     "com.tencent.androidqqmail": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.tencent.qqmail.activity.contacts2.ProfileEditActivity": {
           "mode": 1,
@@ -130,6 +134,7 @@
     },
     "com.ximalaya.ting.android": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.ximalaya.ting.android.host.activity.MainActivity": {
           "mode": 0,
@@ -142,10 +147,12 @@
       }
     },
     "com.tencent.weread": {
-      "enable": true
+      "enable": true,
+      "hookExcluded": true
     },
     "com.midea.ai.appliances": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.midea.business.ucenter.security.PrivacySettingActivity": {
           "mode": 2,
@@ -175,6 +182,7 @@
     },
     "com.tmri.app.main": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.tmri.app.ui.activity.common.WebViewActivity": {
           "mode": -1,
@@ -196,6 +204,7 @@
     },
     "com.ss.android.yumme.video": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.ss.android.ugc.aweme.search.ai.specificbiz.bizmodule.chat.partshow.SearchAiPartShowActivity": {
           "mode": 2,
@@ -297,6 +306,7 @@
     },
     "com.qiyi.video": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.qiyi.video.WelcomeActivity": {
           "mode": 0,
@@ -318,6 +328,7 @@
     },
     "com.ss.android.ugc.livelite": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.bytedance.android.shopping.orderlist.list.container.OrderListActivity": {
           "mode": 0,
@@ -395,6 +406,7 @@
     },
     "com.sankuai.meituan.takeoutnew": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.dianping.live.live.mrn.MLiveMRNActivity": {
           "mode": 2,
@@ -431,10 +443,12 @@
       }
     },
     "com.cmbchina.ccd.pluto.cmbActivity": {
-      "enable": true
+      "enable": true,
+      "hookExcluded": true
     },
     "com.baidu.tieba": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.baidu.tieba.forum.ForumActivity": {
           "mode": 2,
@@ -455,10 +469,12 @@
       }
     },
     "com.jooan.qiaoanzhilian": {
-      "enable": true
+      "enable": true,
+      "hookExcluded": true
     },
     "com.xt.retouch": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.xt.retouch.impl.detail.view.CommunityInnerDetailActivity": {
           "mode": 1,
@@ -472,6 +488,7 @@
     },
     "com.ccb.longjiLife": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "*": {
           "mode": 0,
@@ -485,6 +502,7 @@
     },
     "com.baidu.searchbox": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.baidu.searchbox.newreader.novel.view.activity.NovelSoundPlayerActivity": {
           "mode": 0,
@@ -585,10 +603,12 @@
       }
     },
     "com.cib.cibmb": {
-      "enable": true
+      "enable": true,
+      "hookExcluded": true
     },
     "com.sgcc.wsgw.cn": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.sgcc.wsgw.rnbundle.activity.HomeReactActivity": {
           "mode": 0,
@@ -602,6 +622,7 @@
     },
     "com.duowan.kiwi": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.duowan.kiwi.teenager.impl.activity.TeenagerActivity": {
           "mode": 1,
@@ -638,10 +659,12 @@
       }
     },
     "com.bankcomm.Bankcomm": {
-      "enable": true
+      "enable": true,
+      "hookExcluded": true
     },
     "com.sohu.newsclient": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.sohu.newsclient.quicknews.activity.QuickNewsActivity": {
           "mode": 2,
@@ -686,10 +709,12 @@
       }
     },
     "com.sankuai.meituan.dispatch.crowdsource": {
-      "enable": true
+      "enable": true,
+      "hookExcluded": true
     },
     "com.xingin.xhs": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.xingin.reactnative.ui.XhsReactActivity": {
           "mode": 0,
@@ -767,6 +792,7 @@
     },
     "com.tencent.gamehelper.smoba": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.tencent.tga.liveplugin.live.LiveActivity": {
           "mode": 0,
@@ -795,10 +821,12 @@
       }
     },
     "com.netease.uu": {
-      "enable": true
+      "enable": true,
+      "hookExcluded": true
     },
     "com.ss.android.article.video": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.ixigua.openliveplugin.live.LivePlayerActivity": {
           "mode": 0,
@@ -868,6 +896,7 @@
     },
     "cn.TuHu.android": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "cn.TuHu.Activity.stores.detail.StoresDetailActivity": {
           "mode": 2,
@@ -905,6 +934,7 @@
     },
     "com.greenpoint.android.mc10086.activity": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "*": {
           "mode": 0,
@@ -926,6 +956,7 @@
     },
     "com.xhey.xcamera": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.xhey.xcamera.ui.camera.picNew.PreviewActivity": {
           "mode": 1,
@@ -947,6 +978,7 @@
     },
     "cn.gov.pbc.dcep": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "*": {
           "mode": 0,
@@ -960,6 +992,7 @@
     },
     "com.sankuai.meituan": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.meituan.android.hotel.reuse.homepage.HotelPoiListFrontActivity": {
           "mode": 0,
@@ -1157,6 +1190,7 @@
     },
     "com.sina.weibo": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.sina.weibo.story.gallery.feed.StoryFeedCommentsActivity2": {
           "mode": 1,
@@ -1258,6 +1292,7 @@
     },
     "com.cainiao.wireless": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.cainiao.wireless.guest.GuestModeActivity": {
           "mode": 1,
@@ -1271,6 +1306,7 @@
     },
     "com.baidu.haokan": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.baidu.searchbox.newreader.novel.view.activity.NovelSoundPlayerActivity": {
           "mode": -1,
@@ -1324,6 +1360,7 @@
     },
     "com.ss.android.ugc.aweme.lite": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.bytedance.locallife.page.poi.LifePoiActivity": {
           "mode": 1,
@@ -1537,6 +1574,7 @@
     },
     "com.alicloud.databox": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.alicloud.databox.webview.jsbridge.BridgeWebViewActivity": {
           "mode": 0,
@@ -1566,6 +1604,7 @@
     },
     "com.qiyi.video.lite": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.qiyi.video.lite.videoplayer.activity.PlayerV2Activity": {
           "mode": 0,
@@ -1579,6 +1618,7 @@
     },
     "com.qinyige.navbartest2": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.qinyige.navbartest2.TestDisableImmersionActivity": {
           "mode": 0,
@@ -1640,6 +1680,7 @@
     },
     "com.taobao.idlefish": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.idlefish.flutterbridge.flutterboost.boost.FishFlutterBoostTransparencyActivity": {
           "mode": 0,
@@ -1709,6 +1750,7 @@
     },
     "com.kmxs.reader": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.qimao.qmuser.view.SettingActivity": {
           "mode": 2,
@@ -1754,6 +1796,7 @@
     },
     "com.tencent.android.qqdownloader": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.tencent.assistant.activity.BrowserActivity": {
           "mode": 1,
@@ -1774,10 +1817,12 @@
       }
     },
     "com.ss.android.lark": {
-      "enable": true
+      "enable": true,
+      "hookExcluded": true
     },
     "com.sup.android.superb": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.sup.android.m_account.view.login.LoginActivity": {
           "mode": 1,
@@ -1791,6 +1836,7 @@
     },
     "com.hunantv.imgo.activity": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.mgtv.ui.search.SearchActivity": {
           "mode": 2,
@@ -1844,6 +1890,7 @@
     },
     "com.jingdong.app.mall": {
       "enable": false,
+      "hookExcluded": true,
       "activityRules": {
         "com.jd.lib.productdetailmini.PdMiniImmerseActivity": {
           "mode": 2,
@@ -1905,6 +1952,7 @@
     },
     "com.ss.android.ugc.aweme": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.bytedance.locallife.page.poi.LifePoiActivity": {
           "mode": 1,
@@ -2270,6 +2318,7 @@
     },
     "cn.samsclub.app": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "cn.samsclub.app.login.LoginSelectorActivity ": {
           "mode": 1,
@@ -2323,6 +2372,7 @@
     },
     "air.tv.douyu.android": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.douyu.module.player.p.socialinteraction.functions.switch_room.AudioPlayerPagerActivity": {
           "mode": 0,
@@ -2368,6 +2418,7 @@
     },
     "com.ss.android.article.lite": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.ss.android.article.lite.activity.SplashActivity": {
           "mode": 0,
@@ -2437,6 +2488,7 @@
     },
     "com.tencent.mm": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.tencent.mm.framework.app.UIPageFragmentActivity": {
           "mode": 1,
@@ -2641,10 +2693,12 @@
       }
     },
     "com.tianyancha.skyeye": {
-      "enable": true
+      "enable": true,
+      "hookExcluded": true
     },
     "com.taobao.trip": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.taobao.trip.flutter.*": {
           "mode": 0,
@@ -2666,6 +2720,7 @@
     },
     "com.sinovatech.unicom.ui": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.sinovatech.unicom.separatemodule.recentmenu.FeatureActivity": {
           "mode": 0,
@@ -2687,6 +2742,7 @@
     },
     "com.baidu.searchbox.lite": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.baidu.searchbox.newreader.novel.view.activity.NovelSoundPlayerActivity": {
           "mode": -1,
@@ -2788,6 +2844,7 @@
     },
     "com.eastmoney.android.berlin": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.eastmoney.android.news.activity.NoticeDetailActivityV2": {
           "mode": 1,
@@ -2817,6 +2874,7 @@
     },
     "com.tencent.apps.valorant": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.tencent.qt.qtl.activity.ugc.UgcFriendPostDetailActivity": {
           "mode": 1,
@@ -2870,6 +2928,7 @@
     },
     "com.wudaokou.hippo": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.wudaokou.hippo.order.detailUltron.OrderUltronDetailActivity": {
           "mode": 1,
@@ -2907,6 +2966,7 @@
     },
     "com.sankuai.movie": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.sankuai.movie.movie.MovieDetailActivity": {
           "mode": 1,
@@ -2920,6 +2980,7 @@
     },
     "com.tplink.ipc": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.tplink.superapp.ui.main.MainActivity": {
           "mode": 0,
@@ -2941,6 +3002,7 @@
     },
     "com.netease.cloudmusic": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.netease.cloudmusic.music.biz.comment.activity.CommentActivity": {
           "mode": 1,
@@ -3010,6 +3072,7 @@
     },
     "com.kwai.videoeditor": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.kwai.krn.KrnKyActivity": {
           "mode": 0,
@@ -3047,6 +3110,7 @@
     },
     "com.tencent.gamehelper.pg": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.tencent.gamehelper.ui.chat.ChatActivity": {
           "mode": 1,
@@ -3092,6 +3156,7 @@
     },
     "com.taobao.litetao": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.taobao.search.searchdoor.SearchDoorActivity": {
           "mode": 1,
@@ -3144,13 +3209,16 @@
       }
     },
     "com.meitu.meiyancamera": {
-      "enable": true
+      "enable": true,
+      "hookExcluded": true
     },
     "com.tongcheng.android": {
-      "enable": true
+      "enable": true,
+      "hookExcluded": true
     },
     "com.ss.android.ugc.live": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.ss.android.ugc.aweme.live.LivePlayActivity": {
           "mode": 0,
@@ -3252,6 +3320,7 @@
     },
     "com.cubic.autohome": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.autohome.main.article.zbusiness.video.SlideVideoPageActivity": {
           "mode": 0,
@@ -3305,6 +3374,7 @@
     },
     "com.hupu.games": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.hupu.android.bbs.detail.PostDetailActivity": {
           "mode": 0,
@@ -3334,6 +3404,7 @@
     },
     "com.tencent.tmgp.sgame": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.itop.gcloud.msdk.pixui.wechat.qrcode.WeChatQRCodeActivity": {
           "mode": 1,
@@ -3347,6 +3418,7 @@
     },
     "com.fenbi.android.servant": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.fenbi.android.ti.pdf.DownloadPdfListActivity": {
           "mode": 1,
@@ -3360,6 +3432,7 @@
     },
     "com.ss.android.auto": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.ss.android.auto.lynx.LynxActivity": {
           "mode": 1,
@@ -3437,6 +3510,7 @@
     },
     "com.UCMobile": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.uc.browser.InnerUCMobile": {
           "mode": 0,
@@ -3450,6 +3524,7 @@
     },
     "com.lphtsccft": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.lphtsccft.zhangle.market.SearchStockActivity": {
           "mode": 2,
@@ -3478,13 +3553,16 @@
       }
     },
     "com.moji.mjweather": {
-      "enable": true
+      "enable": true,
+      "hookExcluded": true
     },
     "cn.com.spdb.mobilebank.per": {
-      "enable": true
+      "enable": true,
+      "hookExcluded": true
     },
     "com.zhihu.android": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.zhihu.android.videox.VideoXHostActivity": {
           "mode": 0,
@@ -3530,6 +3608,7 @@
     },
     "com.yipiao": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "*": {
           "mode": 0,
@@ -3551,6 +3630,7 @@
     },
     "com.alibaba.wireless": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.alibaba.wireless.share.ShareActivity": {
           "mode": -1,
@@ -3612,6 +3692,7 @@
     },
     "com.MobileTicket": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.MobileTicket.scan.as.tool.ToolsCaptureActivity": {
           "mode": 2,
@@ -3641,6 +3722,7 @@
     },
     "com.hundsun.winner.pazq": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.hundsun.winner.pazq.business.quotation.activity.StockChartScreen": {
           "mode": 1,
@@ -3653,10 +3735,12 @@
       }
     },
     "com.shuqi.controller": {
-      "enable": true
+      "enable": true,
+      "hookExcluded": true
     },
     "com.taobao.taobao": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.taobao.search.searchdoor.SearchDoorActivity": {
           "mode": 0,
@@ -3870,6 +3954,7 @@
     },
     "com.dianping.v1": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.dianping.movie.activity.DpMovieDetailActivity": {
           "mode": 1,
@@ -3970,10 +4055,12 @@
       }
     },
     "com.tencent.wemeet.app": {
-      "enable": true
+      "enable": true,
+      "hookExcluded": true
     },
     "com.hexin.plat.android": {
       "enable": false,
+      "hookExcluded": true,
       "activityRules": {
         "com.hexin.android.biz_frame.subbiz.LandscapeActivity": {
           "mode": -1,
@@ -3994,10 +4081,12 @@
       }
     },
     "com.kuaiduizuoye.scan": {
-      "enable": true
+      "enable": true,
+      "hookExcluded": true
     },
     "com.baidu.wenku": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.baidu.bdlayout.ui.BDBookActivity": {
           "mode": 1,
@@ -4010,10 +4099,12 @@
       }
     },
     "com.tencent.hunyuan.app.chat": {
-      "enable": true
+      "enable": true,
+      "hookExcluded": true
     },
     "com.jingyao.easybike": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.hellobike.unpaid.UnpaidOrderActivity": {
           "mode": 1,
@@ -4075,6 +4166,7 @@
     },
     "com.okcam.ookcam": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.okcam.ookcam.MainActivity": {
           "mode": 0,
@@ -4087,16 +4179,20 @@
       }
     },
     "com.valvesoftware.android.steam.community": {
-      "enable": true
+      "enable": true,
+      "hookExcluded": true
     },
     "com.clover.daysmatter": {
-      "enable": true
+      "enable": true,
+      "hookExcluded": true
     },
     "com.moonshot.kimichat": {
-      "enable": true
+      "enable": true,
+      "hookExcluded": true
     },
     "cn.gov.tax.its": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "*": {
           "mode": 0,
@@ -4110,6 +4206,7 @@
     },
     "com.ss.android.article.news": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.bytedance.ugc.ugc.thumb.view.ThumbPreviewActivity": {
           "mode": 1,
@@ -4331,6 +4428,7 @@
     },
     "com.hupu.shihuo": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.module.commdity.view.ShoppingDetailActivity": {
           "mode": 0,
@@ -4359,10 +4457,12 @@
       }
     },
     "com.hicorenational.antifraud": {
-      "enable": true
+      "enable": true,
+      "hookExcluded": true
     },
     "com.letv.android.client.pad": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.letv.android.client.activity.MainActivity": {
           "mode": 1,
@@ -4376,6 +4476,7 @@
     },
     "com.quark.browser": {
       "enable": false,
+      "hookExcluded": true,
       "activityRules": {
         "com.ucpro.BrowserActivity": {
           "mode": 0,
@@ -4389,6 +4490,7 @@
     },
     "me.ele": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "me.ele.flutter.page.FlutterActivity": {
           "mode": 0,
@@ -4506,6 +4608,7 @@
     },
     "com.kuaishou.nebula": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.yxcorp.gifshow.comment.image.ImageDetailActivity": {
           "mode": 0,
@@ -4663,6 +4766,7 @@
     },
     "com.anjuke.android.app": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.wuba.housecommon.detail.activity.ApartmentBigImageActivity": {
           "mode": 0,
@@ -4755,10 +4859,12 @@
       }
     },
     "com.chinatelecom.bestpayclient": {
-      "enable": true
+      "enable": true,
+      "hookExcluded": true
     },
     "com.baidu.netdisk": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.baidu.netdisk.kmp.bridge.KmpSharedActivity": {
           "mode": 0,
@@ -4780,6 +4886,7 @@
     },
     "com.pingan.carowner": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.pingan.carowner.activity.MainActivity": {
           "mode": 0,
@@ -4809,6 +4916,7 @@
     },
     "com.achievo.vipshop": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.achievo.vipshop.content.activity.ContentTaDetailActivity": {
           "mode": 1,
@@ -4990,6 +5098,7 @@
     },
     "com.luna.music": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.luna.biz.main.main.MainActivity": {
           "mode": 0,
@@ -5003,6 +5112,7 @@
     },
     "com.xunmeng.pinduoduo": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.xunmeng.pinduoduo.ui.activity.HomeActivity": {
           "mode": 0,
@@ -5056,6 +5166,7 @@
     },
     "com.xunlei.downloadprovider": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.xunlei.downloadprovider.personal.user.feedback.FeedbackActivity": {
           "mode": 1,
@@ -5125,6 +5236,7 @@
     },
     "com.tmall.wireless": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.tmall.wireless.mcartv2.TMCartActivity": {
           "mode": 1,
@@ -5194,6 +5306,7 @@
     },
     "com.sf.activity": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.sf.activity.DefaultActivity": {
           "mode": 1,
@@ -5214,10 +5327,12 @@
       }
     },
     "com.lianjia.beike": {
-      "enable": true
+      "enable": true,
+      "hookExcluded": true
     },
     "com.handsgo.jiakao.android": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "cn.mucang.android.core.webview.HTML5Activity": {
           "mode": 0,
@@ -5239,6 +5354,7 @@
     },
     "cn.hsa.app": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "*": {
           "mode": 0,
@@ -5252,6 +5368,7 @@
     },
     "com.gotokeep.keep": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.gotokeep.keep.mo.business.store.activity.detail.GoodsDetailActivity": {
           "mode": 0,
@@ -5281,6 +5398,7 @@
     },
     "com.zhaopin.social": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.zhaopin.social.app.position.detail.core.view.activity.PositionDetailActivity": {
           "mode": 0,
@@ -5294,6 +5412,7 @@
     },
     "com.yitong.mbank.psbc": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "*": {
           "mode": 0,
@@ -5307,6 +5426,7 @@
     },
     "com.twitter.android": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "*": {
           "mode": 0,
@@ -5344,6 +5464,7 @@
     },
     "com.ygkj.chelaile.standard": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "dev.xesam.chelaile.app.module.web.WebActivity": {
           "mode": 0,
@@ -5365,6 +5486,7 @@
     },
     "com.cmri.universalapp": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.cmri.universalapp.SmartMainProxyActivity": {
           "mode": 0,
@@ -5378,6 +5500,7 @@
     },
     "cn.gov.chinatax.gt4.app": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "*": {
           "mode": 0,
@@ -5391,6 +5514,7 @@
     },
     "com.wuba.zhuanzhuan": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.wuba.zhuanzhuan.activity.ChooseAddressActivity": {
           "mode": 1,
@@ -5419,10 +5543,12 @@
       }
     },
     "com.jiongji.andriod.card": {
-      "enable": true
+      "enable": true,
+      "hookExcluded": true
     },
     "com.qidian.QDReader": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.qidian.QDReader.ui.activity.CirclePostDetailActivity": {
           "mode": 1,
@@ -5492,6 +5618,7 @@
     },
     "com.yueme.itv": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.yueme.itvhome.ui.activity.base.FragmentContainerActivity": {
           "mode": 1,
@@ -5521,6 +5648,7 @@
     },
     "com.netease.mobimail": {
       "enable": false,
+      "hookExcluded": true,
       "activityRules": {
         "com.netease.mobimail.module.flutter.CustomFlutterActivity": {
           "mode": 1,
@@ -5534,6 +5662,7 @@
     },
     "com.dragon.read": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.dragon.community.impl.comment.playlet.detail.page.CSSPlayletCommentDetailsActivity": {
           "mode": 1,
@@ -5611,6 +5740,7 @@
     },
     "com.shizhuang.duapp": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.shizhuang.duapp.modules.identify.ui.IdentifyOnlineDetailsActivity": {
           "mode": 0,
@@ -5712,6 +5842,7 @@
     },
     "com.youku.phone": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.youku.usercenter.passport.activity.LoginActivity": {
           "mode": 0,
@@ -5773,6 +5904,7 @@
     },
     "com.lynkco.customer": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "*": {
           "mode": 0,
@@ -5802,6 +5934,7 @@
     },
     "com.wuba": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.wuba.housecommon.detail.activity.ApartmentBigImageActivity": {
           "mode": 1,
@@ -5975,6 +6108,7 @@
     },
     "com.tencent.mtt": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.tencent.mtt.MainActivity": {
           "mode": 0,
@@ -5988,6 +6122,7 @@
     },
     "cn.soulapp.android": {
       "enable": false,
+      "hookExcluded": true,
       "activityRules": {
         "cn.soulapp.android.h5.activity.H5Activity": {
           "mode": 0,
@@ -6025,6 +6160,7 @@
     },
     "com.klcxkj.zqxy": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.klcxkj.zqxy.ui.main.MainActivity": {
           "mode": 1,
@@ -6046,6 +6182,7 @@
     },
     "com.chaoxing.mobile": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.chaoxing.mobile.main.branch.AppSettingActivity": {
           "mode": 2,
@@ -6115,6 +6252,7 @@
     },
     "com.umetrip.android.msky.app": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.umetrip.android.msky.homepage.activity.UmeHomeActivity": {
           "mode": 1,
@@ -6135,10 +6273,12 @@
       }
     },
     "com.meitu.wink": {
-      "enable": true
+      "enable": true,
+      "hookExcluded": true
     },
     "com.phoenix.read": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.dragon.read.component.audio.impl.ui.detail.view.AudioDetailActivity": {
           "mode": 0,
@@ -6224,6 +6364,7 @@
     },
     "com.dz.hmjc": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.dz.business.main.ui.MainActivity": {
           "mode": 0,
@@ -6245,6 +6386,7 @@
     },
     "com.sohu.sohuvideo": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.sohu.sohuvideo.ui.LiteLoginActivity": {
           "mode": 1,
@@ -6282,6 +6424,7 @@
     },
     "com.lalamove.huolala.client": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.lalamove.huolala.main.MainTabActivity": {
           "mode": 0,
@@ -6303,6 +6446,7 @@
     },
     "cn.damai": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "cn.damai.filmdetail.activity.DMFilmDetailActivity": {
           "mode": -1,
@@ -6332,6 +6476,7 @@
     },
     "com.cmcc.cmvideo": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "*": {
           "mode": 0,
@@ -6353,6 +6498,7 @@
     },
     "com.xs.fm.lite": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.dragon.read.reader.speech.bullet.BulletActivity": {
           "mode": 0,
@@ -6422,6 +6568,7 @@
     },
     "com.max.xiaoheihe": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.max.xiaoheihe.module.account.InterestInitV2Activity": {
           "mode": 1,
@@ -6499,6 +6646,7 @@
     },
     "com.tencent.qqmusic": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.tencent.qqmusic.activity.AppStarterActivity": {
           "mode": 0,
@@ -6544,6 +6692,7 @@
     },
     "com.chinamworld.bocmbci": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.boc.bocsoft.mobile.bocmobile.buss.customerservice.common.activity.CustomerServiceActivity": {
           "mode": 0,
@@ -6556,10 +6705,12 @@
       }
     },
     "com.netease.mc.mi": {
-      "enable": true
+      "enable": true,
+      "hookExcluded": true
     },
     "com.android.bankabc": {
       "enable": false,
+      "hookExcluded": true,
       "activityRules": {
         "com.xiaomi.fido1.matcher.FPTActivity": {
           "mode": -1,
@@ -6581,6 +6732,7 @@
     },
     "cmb.pb": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "cmb.pb.app.mainframe.container.PBMainActivity": {
           "mode": 0,
@@ -6593,13 +6745,16 @@
       }
     },
     "com.sdu.didi.psnger": {
-      "enable": false
+      "enable": false,
+      "hookExcluded": true
     },
     "com.xtc.watch": {
-      "enable": true
+      "enable": true,
+      "hookExcluded": true
     },
     "com.lofter.android": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.lofter.android.mine.setting.AppSettingsActivity": {
           "mode": 0,
@@ -6661,6 +6816,7 @@
     },
     "com.tencent.qqlive": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.tencent.ecologyvideo.activity.ECOActivity": {
           "mode": 0,
@@ -6738,6 +6894,7 @@
     },
     "com.larus.nova": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.larus.home.impl.alias.AliasActivity1": {
           "mode": 0,
@@ -6767,6 +6924,7 @@
     },
     "com.youdao.dict": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.youdao.dict.doctrans.DocTransActivity": {
           "mode": 2,
@@ -6804,6 +6962,7 @@
     },
     "com.xs.fm": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.dragon.read.reader.speech.bullet.BulletActivity": {
           "mode": 0,
@@ -6833,6 +6992,7 @@
     },
     "com.letv.android.client": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.letv.android.client.activity.MainActivity": {
           "mode": 1,
@@ -6846,6 +7006,7 @@
     },
     "com.tencent.wework": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.tencent.wework.flutter.liteapp.ui.LiteAppSuperActivity": {
           "mode": 0,
@@ -6923,6 +7084,7 @@
     },
     "com.baidu.BaiduMap": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.baidu.baidumaps.MapsActivity": {
           "mode": 0,
@@ -6936,6 +7098,7 @@
     },
     "com.unionpay": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.unionpay.activity.react.UPActivityReactNative": {
           "mode": 0,
@@ -6949,6 +7112,7 @@
     },
     "com.icbc": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "icbc.com.icbccustomerservice.chat.ui.CsmPublicChatActivity": {
           "mode": 1,
@@ -6970,6 +7134,7 @@
     },
     "com.ct.client": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.ct.client.common.webview.CommWebkitActivity": {
           "mode": 0,
@@ -7007,6 +7172,7 @@
     },
     "com.sankuai.meituan.meituanwaimaibusiness": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.sankuai.wme.flutter.FlutterBaseContainerActivity": {
           "mode": 1,
@@ -7019,10 +7185,12 @@
       }
     },
     "com.microsoft.emmx": {
-      "enable": true
+      "enable": true,
+      "hookExcluded": true
     },
     "com.tencent.map": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.tencent.map.AppIcon": {
           "mode": 0,
@@ -7036,6 +7204,7 @@
     },
     "com.tencent.qt.qtl": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.tencent.shortvideo.ShortVideoHomeActivity": {
           "mode": 1,
@@ -7049,6 +7218,7 @@
     },
     "com.byd.aeri.caranywhere": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.byd.business.mall.activity.shopDetails.ShopDetailsActivity": {
           "mode": 1,
@@ -7078,6 +7248,7 @@
     },
     "com.cat.readall": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.bytedance.novel.shortseries.router.ShortSeriesProxyActivity": {
           "mode": 1,
@@ -7091,6 +7262,7 @@
     },
     "com.taobao.etao": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.taobao.etao.detail.EtaoGoodsDetailNAActivity": {
           "mode": 1,
@@ -7104,6 +7276,7 @@
     },
     "com.autonavi.minimap": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.autonavi.map.activity.SplashActivity": {
           "mode": 0,
@@ -7117,6 +7290,7 @@
     },
     "com.tencent.news": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.tencent.news.router.shell.AudioPlayerPageActivity": {
           "mode": 0,
@@ -7153,13 +7327,16 @@
       }
     },
     "com.tencent.zebra": {
-      "enable": true
+      "enable": true,
+      "hookExcluded": true
     },
     "com.immomo.momo": {
-      "enable": false
+      "enable": false,
+      "hookExcluded": true
     },
     "com.meta.box": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.meta.box.ui.main.MainActivity": {
           "mode": 0,
@@ -7173,6 +7350,7 @@
     },
     "com.cctv.yangshipin.app.androidp": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.tencent.videolite.android.business.webview.interact.H5InteractActivity": {
           "mode": 2,
@@ -7226,6 +7404,7 @@
     },
     "tv.danmaku.bili": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.bilibili.ship.theseus.detail.UnitedBizDetailsActivity": {
           "mode": 0,
@@ -7351,6 +7530,7 @@
     },
     "com.baidu.homework": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.baidu.homework.activity.user.searchhistory.update.UserNewAskRecordActivity": {
           "mode": 1,
@@ -7380,6 +7560,7 @@
     },
     "com.mihoyo.hyperion": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.mihoyo.hyperion.editor.container.PublishActivity": {
           "mode": 1,
@@ -7424,10 +7605,12 @@
       }
     },
     "com.yek.android.kfc.activitys": {
-      "enable": true
+      "enable": true,
+      "hookExcluded": true
     },
     "com.mt.mtxx.mtxx": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.mt.mtxx.mtxx.MainActivity": {
           "mode": 2,
@@ -7457,6 +7640,7 @@
     },
     "com.eg.android.AlipayGphone": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.antfortune.wealth.stock.common.cube.page.CubePageActivity": {
           "mode": 0,
@@ -7558,6 +7742,7 @@
     },
     "com.pingan.paces.ccms": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.pingan.lzchat.OasisActivity": {
           "mode": 1,
@@ -7571,6 +7756,7 @@
     },
     "cn.xuexi.android": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.alibaba.lightapp.runtime.ariver.TheOneActivity5": {
           "mode": 0,
@@ -7592,6 +7778,7 @@
     },
     "com.huawei.health": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.huawei.ui.device.activity.adddevice.OneKeyScanActivity": {
           "mode": -1,
@@ -7621,6 +7808,7 @@
     },
     "com.taobao.live": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.live.android.detail.activity.TbLiveTTDetailActivity": {
           "mode": 1,
@@ -7642,6 +7830,7 @@
     },
     "com.jd.jrapp": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.jd.jrapp.bm.mainbox.main.MainActivity": {
           "mode": 0,
@@ -7670,10 +7859,12 @@
       }
     },
     "com.jym.gcmall": {
-      "enable": true
+      "enable": true,
+      "hookExcluded": true
     },
     "com.smile.gifmaker": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.yxcorp.gifshow.detail.PhotoDetailActivityTablet": {
           "mode": 0,
@@ -7847,6 +8038,7 @@
     },
     "com.kugou.android": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.kugou.android.app.lockscreen.LockScreenActivity": {
           "mode": 2,
@@ -7883,10 +8075,12 @@
       }
     },
     "com.alibaba.android.rimet": {
-      "enable": true
+      "enable": true,
+      "hookExcluded": true
     },
     "com.tencent.karaoke": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.tencent.karaoke.module.billboard.ui.SingleDetailsActivity": {
           "mode": 0,
@@ -7924,6 +8118,7 @@
     },
     "com.lingan.seeyou": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "cn.meetyou.sleep.activity.SleepActivity": {
           "mode": 2,
@@ -7985,6 +8180,7 @@
     },
     "com.taptap": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.taptap.infra.dispatch.context.page.theme.FragmentNoRestoreActivity": {
           "mode": 2,
@@ -7997,10 +8193,12 @@
       }
     },
     "com.bankcomm.maidanba": {
-      "enable": true
+      "enable": true,
+      "hookExcluded": true
     },
     "com.Qunar": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.mqunar.react.base.stack.container.QReactNativeActivity2": {
           "mode": 1,
@@ -8030,6 +8228,7 @@
     },
     "com.citiccard.mobilebank": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.citiccard.mobilebank.web.webpage.CommonWebPage": {
           "mode": 0,
@@ -8043,6 +8242,7 @@
     },
     "com.chinamworld.main": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "*": {
           "mode": -1,
@@ -8056,6 +8256,7 @@
     },
     "com.videogo": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.videogo.reactnative.activity.EZReactBizActivity": {
           "mode": 1,
@@ -8076,10 +8277,12 @@
       }
     },
     "com.intsig.camscanner": {
-      "enable": true
+      "enable": true,
+      "hookExcluded": true
     },
     "com.fenbi.android.leo": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.fenbi.android.leo.business.homewithchat.HomeWithChatActivity": {
           "mode": 0,
@@ -8165,6 +8368,7 @@
     },
     "cn.wps.moffice_eng": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "cn.wps.moffice.common.selectpic.ui.SelectPicActivity": {
           "mode": 1,
@@ -8218,6 +8422,7 @@
     },
     "com.eggflower.read": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.dragon.read.component.comic.impl.comic.ui.ComicActivity": {
           "mode": 1,
@@ -8231,6 +8436,7 @@
     },
     "com.zmzx.college.search": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.zmzx.college.search.activity.main.activity.MainActivity": {
           "mode": 0,
@@ -8243,10 +8449,12 @@
       }
     },
     "com.snda.wifilocating": {
-      "enable": true
+      "enable": true,
+      "hookExcluded": true
     },
     "com.netease.gl": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.netease.gl.serviceh5.ui.NormalWebActivity": {
           "mode": 0,
@@ -8267,10 +8475,12 @@
       }
     },
     "com.qiyi.video.pad": {
-      "enable": true
+      "enable": true,
+      "hookExcluded": true
     },
     "ctrip.android.view": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "ctrip.android.destination.story.media.MediaSelectActivity": {
           "mode": 1,
@@ -8308,6 +8518,7 @@
     },
     "com.ecitic.bank.mobile": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.ecitic.bank.mobile.ui.MainActivity": {
           "mode": 0,
@@ -8321,6 +8532,7 @@
     },
     "com.kwai.theater": {
       "enable": true,
+      "hookExcluded": true,
       "activityRules": {
         "com.kwai.theater.api.component.HomeActivity": {
           "mode": 0,
