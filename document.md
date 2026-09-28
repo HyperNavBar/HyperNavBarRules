@@ -114,7 +114,7 @@ Pull Request 前建议在本地进行验证，提交时确保已填写 [更新�
 | **enable**             | boolean | `true`, `false` | `false` | 基础启用标志            |
 | **enable31**           | boolean | `true`, `false` | `false` | 特殊启用标志            |
 | **disableVersionCode** | long    | 数字或 `null`      | `null`  | 当应用版本号小于等于此值时禁用规则 |
-| **hookExcluded**       | boolean | `true`, `false` | `false` | 排除 Hook：该应用不注入模块（用于反注入、注入即闪退的应用） |
+| **hookExcluded**       | boolean | `true`, `false` | `true`  | 排除 Hook：`true`（默认）时该应用不注入模块到应用进程，避免被应用检测 |
 
 **启用逻辑说明：**
 
@@ -124,7 +124,9 @@ Pull Request 前建议在本地进行验证，提交时确保已填写 [更新�
 
 - 只要有一个为 true 就启用，两个都为 false 才禁用
 
-> `hookExcluded` 为 `true` 时，应用规则会把该应用从 LSPosed 作用域移除、**不再注入模块**，其下的 `activityRules` 也不会生效。适用于会检测 Xposed 注入并主动退出的应用（这类应用即使不安装任何 Hook 也会崩，安全模式无法避免）。
+> `hookExcluded` **默认 `true`**：默认不把模块注入第三方应用进程（不加入 LSPosed 作用域），避免被应用检测到 Hook。
+> - 该字段只控制是否注入到**应用进程**，**不影响规则是否生效**——规则始终由 system_server 注入，对所有应用生效；只有需要应用进程内取色（非全屏 / 分屏采样）的应用才需要显式设为 `false`。
+> - 应用规则时只做「取消」不做「主动申请」：`hookExcluded: true`（含未声明）的应用会被移出作用域。
 
 <br>
 

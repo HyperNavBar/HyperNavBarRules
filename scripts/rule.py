@@ -162,13 +162,13 @@ class ActivityRule:
 
 
 class AppRule:
-    def __init__(self, mode: str, package_name: str, name: str = "", enable: bool = True, disableVersionCode: int = None, hookExcluded: bool = None, activityRules: dict | str = None, **args):
+    def __init__(self, mode: str, package_name: str, name: str = "", enable: bool = True, disableVersionCode: int = None, hookExcluded: bool = True, activityRules: dict | str = None, **args):
         self.package_name = package_name
         self.name = name
         self.enable = enable
         self.disableVersionCode = disableVersionCode
-        # None 表示未显式声明该字段（输出时省略）；显式 false 会被保留
-        self.hookExcluded = None if hookExcluded is None else bool(hookExcluded)
+        # 默认不注入应用进程（避免被应用检测到 Hook）；显式 hookExcluded=false 才会注入
+        self.hookExcluded = bool(hookExcluded)
 
         if mode == "22":
             self.activityRules = {data[0]: ActivityRule.fromData(mode, data.split(":")[0], data) for data in activityRules.split(",")} if activityRules else {}
@@ -180,8 +180,10 @@ class AppRule:
             result = {"name": self.name, "enable": self.enable}
             if self.disableVersionCode is not None:
                 result["disableVersionCode"] = self.disableVersionCode
-            if self.hookExcluded is not None:
-                result["hookExcluded"] = self.hookExcluded
+            # 默认 True（不注入应用进程）时省略，仅显式开启注入（false）才写出，
+            # 保持规则文件精简，并兼容旧版本应用（其默认值为 false）。
+            if not self.hookExcluded:
+                result["hookExcluded"] = False
             sorted_activity_rules = sorted(self.activityRules.items(), key=lambda x: x[0])
             result["activityRules"] = {name: rule.toData(mode) for name, rule in sorted_activity_rules}
             return result
