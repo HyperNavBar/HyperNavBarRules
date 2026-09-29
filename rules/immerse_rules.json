@@ -1,6 +1,6 @@
 {
   "name": "社区规则源",
-  "dataVersion": "260928",
+  "dataVersion": "260929",
   "modules": "HyperNavBar_config",
   "modifyApps": "modifyApps",
   "NBIRules": {
@@ -23,7 +23,7 @@
     "bin.mt.plus.canary": {
       "name": "MT管理器（测试版）",
       "enable": true,
-      "hookExcluded": false                                             ,
+      "hookExcluded": false,
       "activityRules": {
         "*": {
           "style": "floating"
