@@ -1,0 +1,39 @@
+{
+    "name": "沉浸规则",
+    "dataVersion": "261006",
+    "modules": "HyperNavBar_config",
+    "modifyApps": "modifyApps",
+    "NBIRules": {
+        "com.chaoxing.mobile": {
+            "name": "学习通",
+            "enable": true,
+            "hookExcluded": true,
+            "activityRules": {
+                "com.chaoxing.mobile.course.ui.MyCourseActivity": {
+                    "style": "floating"
+                }
+            }
+        },
+        "com.sankuai.meituan": {
+            "name": "美团",
+            "enable": true,
+            "hookExcluded": true,
+            "activityRules": {
+                "com.sankuai.waimai.bussiness.order.detail.WMOrderDetailActivity": {
+                    "style": "floating"
+                }
+            }
+        },
+        "com.taobao.idlefish": {
+            "name": "闲鱼",
+            "enable": true,
+            "hookExcluded": true,
+            "activityRules": {
+                "com.taobao.idlefish.detail.DetailActivity": {
+                    "style": "view",
+                    "appNavColorDisabled": 1
+                }
+            }
+        }
+    }
+}
