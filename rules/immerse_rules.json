@@ -1,6 +1,6 @@
 {
   "name": "社区规则源",
-  "dataVersion": "260928",
+  "dataVersion": "260929",
   "modules": "HyperNavBar_config",
   "modifyApps": "modifyApps",
   "NBIRules": {
@@ -13,7 +13,7 @@
     "bin.mt.plus": {
       "name": "MT管理器",
       "enable": true,
-      "hookExcluded": true,
+      "hookExcluded": false,
       "activityRules": {
         "*": {
           "style": "floating"
@@ -23,7 +23,7 @@
     "bin.mt.plus.canary": {
       "name": "MT管理器（测试版）",
       "enable": true,
-      "hookExcluded": true,
+      "hookExcluded": false,
       "activityRules": {
         "*": {
           "style": "floating"
@@ -204,7 +204,7 @@
     "cn.toside.music.mobile": {
       "name": "LX Music",
       "enable": true,
-      "hookExcluded": true,
+      "hookExcluded": false,
       "activityRules": {
         "*": {
           "style": "sf"
@@ -1035,7 +1035,7 @@
     "com.eg.android.AlipayGphone": {
       "name": "支付宝",
       "enable": true,
-      "hookExcluded": true,
+      "hookExcluded": false,
       "activityRules": {
         "*": {
           "style": "sf"
