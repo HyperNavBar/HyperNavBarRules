@@ -1,6 +1,6 @@
 {
   "name": "社区规则源",
-  "dataVersion": "260929",
+  "dataVersion": "261006",
   "modules": "HyperNavBar_config",
   "modifyApps": "modifyApps",
   "NBIRules": {
@@ -2394,6 +2394,9 @@
         },
         "com.sankuai.rn.train.common.TrafficRnCommonActivity": {
           "style": "sf"
+        },
+        "com.sankuai.waimai.bussiness.order.detail.WMOrderDetailActivity": {
+          "style": "floating"
         }
       }
     },
@@ -2958,6 +2961,10 @@
         },
         "com.idlefish.flutterbridge.flutterboost.boost.FishFlutterBoostActivity": {
           "style": "floating"
+        },
+        "com.taobao.idlefish.detail.DetailActivity": {
+          "style": "view",
+          "appNavColorDisabled": 1
         }
       }
     },
