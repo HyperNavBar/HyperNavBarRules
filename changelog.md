@@ -11,6 +11,7 @@
 
 - **预置 19 个应用的手势提示线默认规则**（默认**始终隐藏**：日历、时钟、录音机、酷安、DeepSeek、支付宝、相册插件、相册、相册编辑、笔记、主题商店、天气、Kimi、ChatGPT、IT之家、KernelSU；默认**始终显示**：QQ、小红书、WhereToSleepInNJU）
 - 规则文件为全部应用显式写出 `navBarVisibility`（默认 `default`），与 `hookExcluded` 的「生成时始终显式写出」约定保持一致
+- 跨屏协同服务 (__@Ianzb__)
 
 ### 致谢
 

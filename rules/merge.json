@@ -1,0 +1,19 @@
+{
+    "name": "沉浸规则",
+    "dataVersion": "261008",
+    "modules": "HyperNavBar_config",
+    "modifyApps": "modifyApps",
+    "NBIRules": {
+        "com.xiaomi.mirror": {
+            "name": "跨屏协同服务",
+            "enable": true,
+            "hookExcluded": false,
+            "activityRules": {
+                "*": {
+                    "style": "floating",
+                    "appNavColorDisabled": 1
+                }
+            }
+        }
+    }
+}
