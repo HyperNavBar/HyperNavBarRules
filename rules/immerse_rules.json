@@ -1,6 +1,6 @@
 {
   "name": "社区规则源",
-  "dataVersion": "261006",
+  "dataVersion": "261012",
   "modules": "HyperNavBar_config",
   "modifyApps": "modifyApps",
   "NBIRules": {
