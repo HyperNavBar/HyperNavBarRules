@@ -4025,6 +4025,18 @@
         }
       }
     },
+    "com.xiaomi.mirror": {
+      "name": "跨屏协同服务",
+      "enable": true,
+      "hookExcluded": false,
+      "navBarVisibility": "default",
+      "activityRules": {
+        "*": {
+          "style": "floating",
+          "appNavColorDisabled": 1
+        }
+      }
+    },
     "com.xiaomi.router": {
       "name": "小米 WiFi",
       "enable": true,
