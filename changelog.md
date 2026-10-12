@@ -1,5 +1,26 @@
 # 更新日志
 
+## 2026-10-12
+
+### 新增
+
+- 支持应用级 `navBarVisibility` 字段（手势提示线 / 小白条显示控制）：`default`（跟随全局默认模式，默认值）、`alwaysShow`（始终显示）、`autoHide`（3 秒后自动隐藏）、`alwaysHide`（始终隐藏），详见 [document.md](document.md)
+- 生成与校验流程同步支持该字段：`scripts/rule.py` 读写并显式写出默认值，`scripts/remove_duplicates.py` 补全缺失值，`scripts/validate_json.py` 校验取值合法性
+
+### 优化
+
+- **预置 19 个应用的手势提示线默认规则**（默认**始终隐藏**：日历、时钟、录音机、酷安、DeepSeek、支付宝、相册插件、相册、相册编辑、笔记、主题商店、天气、Kimi、ChatGPT、IT之家、KernelSU；默认**始终显示**：QQ、小红书、WhereToSleepInNJU）
+- 规则文件为全部应用显式写出 `navBarVisibility`（默认 `default`），与 `hookExcluded` 的「生成时始终显式写出」约定保持一致
+
+### 致谢
+
+- 上述手势提示线默认规则参考并合并自开源项目 [HyperModifier](https://github.com/AritxOnly/HyperModifier)（作者 [@AritxOnly](https://github.com/AritxOnly)），在此致以诚挚感谢
+- 同时感谢 HyperModifier 对模块「手势提示线」显示控制实现上的参考价值
+
+### 贡献者
+
+[@Ianzb](https://github.com/Ianzb)
+
 ## 2026-10-06
 
 ### 优化

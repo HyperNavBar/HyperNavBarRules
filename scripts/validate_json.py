@@ -17,6 +17,7 @@ if modules not in VALID_MODULES:
 # 2) 校验每个 activity 的 style 值合法（新格式 style 主参数；官方格式 activity 含 mode 字段）
 bad = []
 bad_app = []
+bad_visibility = []
 for package, app_rule in raw.get("NBIRules", {}).items():
     if not isinstance(app_rule, dict):
         continue
@@ -24,6 +25,10 @@ for package, app_rule in raw.get("NBIRules", {}).items():
     # 始终显式写出 hookExcluded（默认 true）：旧版本应用默认值为 false，缺失会导致旧版本仍注入
     if not isinstance(hook, bool):
         bad_app.append((package, hook))
+    visibility = app_rule.get("navBarVisibility")
+    # 允许缺省（生成 / 应用端会补全 default），存在时必须是合法取值
+    if visibility is not None and visibility not in NAV_BAR_VISIBILITY_VALUES:
+        bad_visibility.append((package, visibility))
     activities = app_rule.get("activityRules")
     if not isinstance(activities, dict):
         continue
@@ -39,6 +44,12 @@ if bad_app:
     for package, value in bad_app:
         print(f"非法或缺失 hookExcluded：{package} = {value!r}（必须显式写出布尔值）", file=sys.stderr)
     print("错误：每个应用都必须显式声明布尔值 hookExcluded（默认 true）", file=sys.stderr)
+    sys.exit(1)
+
+if bad_visibility:
+    for package, value in bad_visibility:
+        print(f"非法 navBarVisibility：{package} = {value!r}", file=sys.stderr)
+    print(f"错误：navBarVisibility 取值必须为 {NAV_BAR_VISIBILITY_VALUES} 之一", file=sys.stderr)
     sys.exit(1)
 
 if bad:

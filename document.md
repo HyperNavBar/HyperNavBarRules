@@ -78,6 +78,7 @@ Pull Request 前建议在本地进行验证，提交时确保已填写 [更新�
       "name": "应用名称（可选）",
       "enable": true,
       "hookExcluded": true,        // 排除 Hook：该应用不注入模块（默认 true，生成时始终显式写出）
+      "navBarVisibility": "default", // 小白条状态：default / alwaysShow / autoHide / alwaysHide（默认 default）
       "activityRules": {
         "Activity名称": {
           "style": "沉浸样式（view / sf / color / floating / disabled 等）"
@@ -115,6 +116,7 @@ Pull Request 前建议在本地进行验证，提交时确保已填写 [更新�
 | **enable31**           | boolean | `true`, `false` | `false` | 特殊启用标志            |
 | **disableVersionCode** | long    | 数字或 `null`      | `null`  | 当应用版本号小于等于此值时禁用规则 |
 | **hookExcluded**       | boolean | `true`, `false` | `true`  | 排除 Hook：`true`（默认）时该应用不注入模块到应用进程，避免被应用检测 |
+| **navBarVisibility**   | string  | `default`, `alwaysShow`, `autoHide`, `alwaysHide` | `default` | 手势提示线（小白条）显示方式：跟随默认 / 始终显示 / 3 秒后自动隐藏 / 始终隐藏 |
 
 **启用逻辑说明：**
 
@@ -128,6 +130,11 @@ Pull Request 前建议在本地进行验证，提交时确保已填写 [更新�
 > - **生成时始终显式写出**：所有应用（含使用默认值的 `hookExcluded: true`）在规则文件生成/保存时都会显式写出该字段，不省略。因为旧版本应用默认值为 `false`，只有显式 `true` 才能让旧版本也不注入。
 > - 该字段只控制是否注入到**应用进程**，**不影响规则是否生效**——规则始终由 system_server 注入，对所有应用生效；只有需要应用进程内取色（非全屏 / 分屏采样）的应用才需要显式设为 `false`。
 > - 应用规则时按规则列表重写作用域：`hookExcluded: false` 的应用自动加入作用域；不在规则列表（含 `hookExcluded: true`）的应用自动移出，仅 system（系统框架）始终保留。
+
+> `navBarVisibility` **默认 `default`**：表示跟随模块功能页「手势提示线 → 全局默认适配模式」的设置。
+> - `alwaysShow` 始终显示；`autoHide` 应用切到前台 3 秒后自动隐藏（模块开启「触摸唤醒」后，触摸底部手势区域可再次显示 3 秒）；`alwaysHide` 始终隐藏。
+> - **规则没有时显式补全**：模块在合并 / 保存规则时会为所有应用显式补全该字段（默认 `default`），无需手动书写；仅需在需要单独控制某应用时显式声明。
+> - 该字段只在模块「手势提示线」Hook（SystemUI 进程）中生效，不影响沉浸规则本身；需要用户在模块功能页开启对应总开关并重启系统界面。
 
 <br>
 

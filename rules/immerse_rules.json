@@ -8,12 +8,14 @@
       "name": "斗鱼",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "bin.mt.plus": {
       "name": "MT管理器",
       "enable": true,
       "hookExcluded": false,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -24,6 +26,7 @@
       "name": "MT管理器（测试版）",
       "enable": true,
       "hookExcluded": false,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -34,6 +37,7 @@
       "name": "招商银行",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "cmb.pb.app.mainframe.container.PBMainActivity": {
           "style": "sf"
@@ -44,12 +48,14 @@
       "name": "",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "cn.com.chsi.chsiapp": {
       "name": "学信网",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "cn.com.chsi.chsiapp.MainActivity": {
           "style": "color",
@@ -61,18 +67,21 @@
       "name": "不背单词",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "cn.com.spdb.mobilebank.per": {
       "name": "",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "cn.com.whty.cqt": {
       "name": "渝通行",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -83,6 +92,7 @@
       "name": "大麦",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "sf",
@@ -109,6 +119,7 @@
       "name": "智汇福大",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -119,30 +130,35 @@
       "name": "",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "cn.gov.pbc.dcep": {
       "name": "",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "cn.gov.tax.its": {
       "name": "",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "cn.hsa.app": {
       "name": "",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "cn.ikaile.ruoshui.client": {
       "name": "RoseLink",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -153,6 +169,7 @@
       "name": "酷我音乐",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -166,6 +183,7 @@
       "name": "NoActive",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -176,6 +194,7 @@
       "name": "九号出行",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -189,12 +208,14 @@
       "name": "",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "cn.soulapp.android": {
       "name": "Soul",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "cn.soulapp.android.h5.activity.H5Activity": {
           "style": "floating"
@@ -205,6 +226,7 @@
       "name": "LX Music",
       "enable": true,
       "hookExcluded": false,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "sf"
@@ -215,6 +237,7 @@
       "name": "U 校园 AI 版",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -233,12 +256,14 @@
       "name": "WPS Office国际版",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "cn.wywk.app": {
       "name": "网鱼",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "cn.wywk.core.splash.SplashActivity": {
           "style": "floating"
@@ -249,12 +274,14 @@
       "name": "学习强国",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.MobileTicket": {
       "name": "铁路12306",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.MobileTicket.ui.activity.MainActivity": {
           "style": "color",
@@ -266,6 +293,7 @@
       "name": "一个木函",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -279,6 +307,7 @@
       "name": "去哪儿",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.mqunar.react.base.stack.container.QReactNativeActivity*": {
           "style": "floating",
@@ -290,18 +319,21 @@
       "name": "UC浏览器",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.achievo.vipshop": {
       "name": "唯品会",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.activitymanager": {
       "name": "Activity Manager",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -312,6 +344,7 @@
       "name": "中国广电",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "color",
@@ -323,6 +356,7 @@
       "name": "AIR-Look",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.wifiview.activity.HomePagerActivity": {
           "style": "sf"
@@ -339,6 +373,7 @@
       "name": "开盘啦",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.aiyu.kaipanla.newindex.ui.main.MainActivity": {
           "style": "view"
@@ -352,6 +387,7 @@
       "name": "Tyranor模拟器",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.akira.tyranoemu.app.TyActivity": {
           "style": "sf"
@@ -362,12 +398,14 @@
       "name": "学习强国",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.alibaba.wireless": {
       "name": "阿里巴巴",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -393,32 +431,50 @@
       "name": "",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.android.bankabc": {
       "name": "中国农业银行",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.xiaomi.fido1.matcher.FPTActivity": {
           "style": "default"
         }
       }
     },
+    "com.android.calendar": {
+      "name": "日历",
+      "enable": true,
+      "hookExcluded": true,
+      "navBarVisibility": "alwaysHide",
+      "activityRules": {}
+    },
     "com.android.chrome": {
       "name": "Google Chrome",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
         }
       }
     },
+    "com.android.deskclock": {
+      "name": "时钟",
+      "enable": true,
+      "hookExcluded": true,
+      "navBarVisibility": "alwaysHide",
+      "activityRules": {}
+    },
     "com.android.email": {
       "name": "小米电子邮件",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -429,28 +485,39 @@
       "name": "设置",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "rikka.sui.SuiActivity": {
           "style": "floating"
         }
       }
     },
+    "com.android.soundrecorder": {
+      "name": "录音机",
+      "enable": true,
+      "hookExcluded": true,
+      "navBarVisibility": "alwaysHide",
+      "activityRules": {}
+    },
     "com.android.vending": {
       "name": "谷歌应用商店",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.anjuke.android.app": {
       "name": "安居客",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.atour.atourlife": {
       "name": "亚朵",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "view"
@@ -473,6 +540,7 @@
       "name": "高德地图",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "color",
@@ -484,6 +552,7 @@
       "name": "百度地图",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -497,6 +566,7 @@
       "name": "百度翻译",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -507,18 +577,21 @@
       "name": "好看视频",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.baidu.homework": {
       "name": "作业帮",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.baidu.netdisk": {
       "name": "百度网盘",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -544,6 +617,7 @@
       "name": "文小言",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -557,6 +631,7 @@
       "name": "百度",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -576,6 +651,7 @@
       "name": "百度极速版",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -607,30 +683,35 @@
       "name": "百度贴吧",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.baidu.wenku": {
       "name": "百度文库",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.bankcomm.Bankcomm": {
       "name": "交通银行",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.bankcomm.maidanba": {
       "name": "",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.bubblesoft.android.bubbleupnp": {
       "name": "BubbleUPnP",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -644,6 +725,7 @@
       "name": "Fuck for VIP",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -654,6 +736,7 @@
       "name": "四川航空",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "color",
@@ -665,6 +748,7 @@
       "name": "体教联盟",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.bwvip.sporteducation.SplashActivity": {
           "style": "floating"
@@ -675,6 +759,7 @@
       "name": "比亚迪",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -685,6 +770,7 @@
       "name": "爱玩机工具箱",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -698,6 +784,7 @@
       "name": "菜鸟",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.cainiao.wireless.components.hybrid.windvane.activity.GuoGuoNewWebViewActivity": {
           "style": "floating"
@@ -711,18 +798,21 @@
       "name": "",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.ccb.longjiLife": {
       "name": "",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.cctv.yangshipin.app.androidp": {
       "name": "",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.tencent.videolite.android.ui.HomeActivity": {
           "style": "sf"
@@ -733,6 +823,7 @@
       "name": "学习通",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "sf"
@@ -746,12 +837,14 @@
       "name": "中国银行",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.chinamworld.main": {
       "name": "中国建设银行",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "sf"
@@ -768,24 +861,28 @@
       "name": "",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.cib.cibmb": {
       "name": "",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.citiccard.mobilebank": {
       "name": "",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.cloudy.linglingbang": {
       "name": "五菱汽车",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.cloudy.linglingbang.activity.HomeActivity": {
           "style": "sf"
@@ -796,12 +893,14 @@
       "name": "倒数日-Days Matter",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.clover.idaily": {
       "name": "iDaily",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -812,12 +911,14 @@
       "name": "",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.cmcc.cmvideo": {
       "name": "咪咕视频",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "disabled"
@@ -828,6 +929,7 @@
       "name": "和包",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "sf"
@@ -838,6 +940,7 @@
       "name": "和多号",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "sf"
@@ -848,12 +951,14 @@
       "name": "移动爱家",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.cnspeedtest.globalspeed": {
       "name": "全球网测",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.ruili.android.taierspeed.speedtest.SpeedTestSettingActivity": {
           "style": "floating"
@@ -870,16 +975,25 @@
       "name": "澎湃工具箱",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
         }
       }
     },
+    "com.coolapk.market": {
+      "name": "酷安",
+      "enable": true,
+      "hookExcluded": true,
+      "navBarVisibility": "alwaysHide",
+      "activityRules": {}
+    },
     "com.ct.client": {
       "name": "中国电信",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "color",
@@ -891,12 +1005,21 @@
       "name": "汽车之家",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
+      "activityRules": {}
+    },
+    "com.deepseek.chat": {
+      "name": "DeepSeek",
+      "enable": true,
+      "hookExcluded": true,
+      "navBarVisibility": "alwaysHide",
       "activityRules": {}
     },
     "com.dianping.v1": {
       "name": "大众点评",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -951,6 +1074,7 @@
       "name": "甲壳虫 ADB 助手",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.didjdk.adbhelper.FastbootActivity": {
           "style": "floating"
@@ -961,6 +1085,7 @@
       "name": "奇瑞汽车",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -971,6 +1096,7 @@
       "name": "番茄免费小说",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.bytedance.sdk.open.douyin.ui.DouYinWebAuthorizeActivity": {
           "style": "floating"
@@ -998,6 +1124,7 @@
       "name": "",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.duowan.kiwi.homepage.Homepage": {
           "style": "sf"
@@ -1008,24 +1135,28 @@
       "name": "河马剧场",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.eastmoney.android.berlin": {
       "name": "东方财富",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.ecitic.bank.mobile": {
       "name": "",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.edifier.edifierconnect": {
       "name": "EDIFIER Connect",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "sf"
@@ -1036,6 +1167,7 @@
       "name": "支付宝",
       "enable": true,
       "hookExcluded": false,
+      "navBarVisibility": "alwaysHide",
       "activityRules": {
         "*": {
           "style": "sf"
@@ -1077,12 +1209,14 @@
       "name": "蛋花免费小说",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.epicgames.portal": {
       "name": "Epic Games",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -1093,6 +1227,7 @@
       "name": "每日英语听力",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.eusoft.ting.ui.CommonWebViewActivity": {
           "style": "sf"
@@ -1106,6 +1241,7 @@
       "name": "AuthKey提取器",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -1116,6 +1252,7 @@
       "name": "返利",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -1126,18 +1263,21 @@
       "name": "小猿AI",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.fenbi.android.servant": {
       "name": "粉笔",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.github.android": {
       "name": "Github",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -1152,6 +1292,7 @@
       "name": "Kernel Flasher",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -1162,6 +1303,7 @@
       "name": "旅法师营地",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -1172,12 +1314,14 @@
       "name": "Google Play 服务",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.google.android.youtube": {
       "name": "YouTube",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -1188,6 +1332,7 @@
       "name": "Google Earth",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -1198,24 +1343,28 @@
       "name": "Keep",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.greenpoint.android.mc10086.activity": {
       "name": "中国移动",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.handsgo.jiakao.android": {
       "name": "",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.hengye.share": {
       "name": "Share",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "sf"
@@ -1226,6 +1375,7 @@
       "name": "同花顺",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -1243,6 +1393,7 @@
       "name": "欢律",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "default"
@@ -1253,12 +1404,14 @@
       "name": "",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.houvven.guise": {
       "name": "Guise",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -1269,12 +1422,14 @@
       "name": "华为运动健康",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.huaxiaozhu.rider": {
       "name": "花小猪打车",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -1285,18 +1440,21 @@
       "name": "芒果TV",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.hundsun.winner.pazq": {
       "name": "平安证券",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.hupu.games": {
       "name": "虎扑",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.hupu.games.main.MainActivity": {
           "style": "sf"
@@ -1307,22 +1465,32 @@
       "name": "识货",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.hustzp.com.xichuangzhu": {
       "name": "西窗烛",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
         }
       }
     },
+    "com.hyper.gallery.plugin": {
+      "name": "相册插件",
+      "enable": true,
+      "hookExcluded": true,
+      "navBarVisibility": "alwaysHide",
+      "activityRules": {}
+    },
     "com.hypergryph.skland": {
       "name": "森空岛",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "view"
@@ -1336,6 +1504,7 @@
       "name": "SmartSports / 其实我也不知道是什么,根本查不到",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -1350,12 +1519,14 @@
       "name": "中国工商银行",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.iflytek.elpmobile.marktool": {
       "name": "智学网教师端",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -1369,6 +1540,7 @@
       "name": "智学网",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -1382,6 +1554,7 @@
       "name": "智学网学生端",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -1395,12 +1568,14 @@
       "name": "",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.inphase.mojing": {
       "name": "魔镜慧眼",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -1411,12 +1586,14 @@
       "name": "",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.jason.taokemao": {
       "name": "淘客猫",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -1430,6 +1607,7 @@
       "name": "京东金融",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.jd.jrapp.bm.common.container.ui.BaseContainerActivity": {
           "style": "floating"
@@ -1440,6 +1618,7 @@
       "name": "京东",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -1462,12 +1641,14 @@
       "name": "哈啰",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.jiongji.andriod.card": {
       "name": "百词斩",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -1482,18 +1663,21 @@
       "name": "前程无忧51Job",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.jooan.qiaoanzhilian": {
       "name": "乔安智联",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.jxedt.babyElephant": {
       "name": "考试宝极速版",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "sf"
@@ -1504,12 +1688,14 @@
       "name": "",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.kaoshibaodian.app": {
       "name": "考试宝",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "sf"
@@ -1520,12 +1706,14 @@
       "name": "趣智校园",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.klcxkj.zqxy_kaihe": {
       "name": "悦享校园",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "sf"
@@ -1536,12 +1724,14 @@
       "name": "七猫免费小说",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.ktls.fileinfo": {
       "name": "储存空间清理",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.ktls.fileinfo.O000OO00O0OOO00OO00.O0000O00O0OOO00OO0O": {
           "style": "floating"
@@ -1552,12 +1742,14 @@
       "name": "",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.kuaishou.nebula": {
       "name": "快手极速版",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.kuaishou.live.core.basic.activity.LiveSlideActivity*": {
           "style": "sf"
@@ -1577,12 +1769,14 @@
       "name": "酷狗音乐",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.kurogame.kjq": {
       "name": "库街区",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -1593,30 +1787,35 @@
       "name": "喜番免费短剧",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.kwai.videoeditor": {
       "name": "快影",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.lalamove.huolala.client": {
       "name": "",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.larus.nova": {
       "name": "豆包",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.lefan.signal": {
       "name": "信号检测仪",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -1630,6 +1829,7 @@
       "name": "阅读新包名",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "io.legado.app.ui.book.read.ReadBookActivity": {
           "style": "sf",
@@ -1641,36 +1841,49 @@
       "name": "",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.letv.android.client.pad": {
       "name": "",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.lianjia.beike": {
       "name": "贝壳找房",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
+      "activityRules": {}
+    },
+    "com.lilystudio.wheretosleepinnju": {
+      "name": "WhereToSleepInNJU",
+      "enable": true,
+      "hookExcluded": true,
+      "navBarVisibility": "alwaysShow",
       "activityRules": {}
     },
     "com.lingan.seeyou": {
       "name": "美柚",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.lofter.android": {
       "name": "网易LOFTER",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.lonx.lyrico": {
       "name": "Lyrico",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.lonx.lyrico.MainActivity": {
           "style": "floating"
@@ -1681,12 +1894,14 @@
       "name": "涨乐财富通",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.lptiyu.tanke": {
       "name": "步道乐跑",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.lptiyu.tanke.activities.main.MainActivity": {
           "style": "sf"
@@ -1697,6 +1912,7 @@
       "name": "汽水音乐",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.luna.biz.main.main.MainActivity": {
           "style": "sf"
@@ -1707,12 +1923,14 @@
       "name": "",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.maimemo.android.momo": {
       "name": "墨墨背单词",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.maimemo.android.momo.word.WordActivity": {
           "style": "floating",
@@ -1724,6 +1942,7 @@
       "name": "小黑盒",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -1740,6 +1959,7 @@
       "name": "麦当劳",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.mcd.cms.activity.CmsDetailActivity": {
           "style": "floating"
@@ -1783,18 +2003,21 @@
       "name": "",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.meitu.wink": {
       "name": "",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.meta.box": {
       "name": "233乐园",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.meta.box.ui.main.MainActivity": {
           "style": "sf"
@@ -1805,6 +2028,7 @@
       "name": "123云盘",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -1815,6 +2039,7 @@
       "name": "小米运动健康",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -1832,6 +2057,7 @@
       "name": "微软必应",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "sf"
@@ -1842,6 +2068,7 @@
       "name": "Edge",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "org.chromium.chrome.browser.edge_settings.EdgeSettingsActivity": {
           "style": "floating"
@@ -1852,6 +2079,7 @@
       "name": "Edge Beta",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "org.chromium.chrome.browser.edge_settings.EdgeSettingsActivity": {
           "style": "floating"
@@ -1862,6 +2090,7 @@
       "name": "Edge Canary",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "org.chromium.chrome.browser.edge_settings.EdgeSettingsActivity": {
           "style": "floating"
@@ -1872,6 +2101,7 @@
       "name": "Edge Dev",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "org.chromium.chrome.browser.edge_settings.EdgeSettingsActivity": {
           "style": "floating"
@@ -1882,6 +2112,7 @@
       "name": "Outlook",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.acompli.acompli.CentralActivity": {
           "style": "floating"
@@ -1892,6 +2123,7 @@
       "name": "To Do",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -1902,6 +2134,7 @@
       "name": "Xbox",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "sf"
@@ -1912,12 +2145,14 @@
       "name": "",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.mihoyo.hyperion": {
       "name": "米游社",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "view"
@@ -1937,6 +2172,7 @@
       "name": "Minecraft DLC Free",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -1947,6 +2183,7 @@
       "name": "钱包",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -1960,38 +2197,78 @@
       "name": "CIT",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
         }
       }
     },
+    "com.miui.gallery": {
+      "name": "相册",
+      "enable": true,
+      "hookExcluded": true,
+      "navBarVisibility": "alwaysHide",
+      "activityRules": {}
+    },
+    "com.miui.mediaeditor": {
+      "name": "相册编辑",
+      "enable": true,
+      "hookExcluded": true,
+      "navBarVisibility": "alwaysHide",
+      "activityRules": {}
+    },
     "com.miui.nextpay": {
       "name": "小米智能卡网页组件",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.miui.nextpay.hybrid.HybridActivity": {
           "style": "floating"
         }
       }
     },
+    "com.miui.notes": {
+      "name": "笔记",
+      "enable": true,
+      "hookExcluded": true,
+      "navBarVisibility": "alwaysHide",
+      "activityRules": {}
+    },
+    "com.miui.themestore": {
+      "name": "主题商店",
+      "enable": true,
+      "hookExcluded": true,
+      "navBarVisibility": "alwaysHide",
+      "activityRules": {}
+    },
+    "com.miui.weather2": {
+      "name": "天气",
+      "enable": true,
+      "hookExcluded": true,
+      "navBarVisibility": "alwaysHide",
+      "activityRules": {}
+    },
     "com.moji.mjweather": {
       "name": "",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.moonshot.kimichat": {
-      "name": "",
+      "name": "Kimi",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "alwaysHide",
       "activityRules": {}
     },
     "com.mosoink.teach": {
       "name": "云班课",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -2014,12 +2291,14 @@
       "name": "",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.mutangtech.qianji": {
       "name": "钱迹",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -2030,6 +2309,7 @@
       "name": "MX 播放器专业版",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -2040,6 +2320,7 @@
       "name": "手机性能排行",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -2053,6 +2334,7 @@
       "name": "网易云音乐",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -2090,6 +2372,7 @@
       "name": "中国大学MOOC",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -2116,6 +2399,7 @@
       "name": "网易大神",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.netease.gl.compfeed.circle.activity.GameWikiActivity": {
           "style": "floating"
@@ -2132,24 +2416,28 @@
       "name": "",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.netease.mobimail": {
       "name": "",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.netease.uu": {
       "name": "",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.nowcoder.app.florida": {
       "name": "牛客",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "sf"
@@ -2169,22 +2457,32 @@
       "name": "",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.omarea.vtools": {
       "name": "Scene",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
         }
       }
     },
+    "com.openai.chatgpt": {
+      "name": "ChatGPT",
+      "enable": true,
+      "hookExcluded": true,
+      "navBarVisibility": "alwaysHide",
+      "activityRules": {}
+    },
     "com.oray.sunlogin": {
       "name": "向日葵远程控制",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -2198,6 +2496,7 @@
       "name": "红果免费短剧",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.dragon.read.hybrid.webview.WebViewActivity": {
           "style": "view"
@@ -2208,18 +2507,21 @@
       "name": "",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.pingan.paces.ccms": {
       "name": "平安口袋银行",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.plan.kot32.tomatotime": {
       "name": "番茄 ToDo",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -2234,6 +2536,7 @@
       "name": "Geekbench 6",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -2244,6 +2547,7 @@
       "name": "起点读书",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.qidian.QDReader.ui.activity.CircleHomePageActivity": {
           "style": "floating"
@@ -2260,36 +2564,42 @@
       "name": "",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.qiyi.video": {
       "name": "爱奇艺",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.qiyi.video.lite": {
       "name": "爱奇艺极速版",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.qiyi.video.pad": {
       "name": "",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.qqgame.hlddz": {
       "name": "欢乐斗地主",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.quark.browser": {
       "name": "夸克",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.ucpro.BrowserActivity": {
           "style": "sf"
@@ -2300,6 +2610,7 @@
       "name": "夸克网盘",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.ucpro.BrowserActivity": {
           "style": "sf"
@@ -2310,6 +2621,7 @@
       "name": "取件助手",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "color",
@@ -2321,6 +2633,7 @@
       "name": "Reqable",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -2331,16 +2644,25 @@
       "name": "InstallerX",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
         }
       }
     },
+    "com.ruanmei.ithome": {
+      "name": "IT之家",
+      "enable": true,
+      "hookExcluded": true,
+      "navBarVisibility": "alwaysHide",
+      "activityRules": {}
+    },
     "com.ruanmei.zuihuimai": {
       "name": "最会买",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -2359,6 +2681,7 @@
       "name": "东方航空",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -2369,6 +2692,7 @@
       "name": "EasyConnect",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "sf"
@@ -2379,6 +2703,7 @@
       "name": "美团",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -2404,18 +2729,21 @@
       "name": "美团众包",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.sankuai.meituan.meituanwaimaibusiness": {
       "name": "美团外卖商家版",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.sankuai.meituan.takeoutnew": {
       "name": "美团",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.meituan.msc.modules.container.MSCActivity": {
           "style": "floating"
@@ -2429,18 +2757,21 @@
       "name": "猫眼",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.sdu.didi.gsui": {
       "name": "滴滴车主",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.sdu.didi.psnger": {
       "name": "滴滴出行",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -2461,24 +2792,28 @@
       "name": "Seetong",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.sf.activity": {
       "name": "顺丰速运",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.sgcc.wsgw.cn": {
       "name": "",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.shanbay.wisecards": {
       "name": "扇贝知卡",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -2489,6 +2824,7 @@
       "name": "USB摄像头",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -2499,24 +2835,28 @@
       "name": "识货",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.shuqi.controller": {
       "name": "书旗小说",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.sina.weibo": {
       "name": "微博",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.sinovatech.unicom.ui": {
       "name": "中国联通",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -2530,6 +2870,7 @@
       "name": "锤子便签",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "view"
@@ -2546,6 +2887,7 @@
       "name": "快手",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.kuaishou.live.core.basic.activity.LiveSlideActivity*": {
           "style": "sf"
@@ -2568,6 +2910,7 @@
       "name": "什么值得买",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -2604,12 +2947,14 @@
       "name": "",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.sohu.inputmethod.sogou": {
       "name": "搜狗输入法",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -2623,24 +2968,28 @@
       "name": "搜狐新闻",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.sohu.sohuvideo": {
       "name": "搜狐视频",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.ss.android.article.lite": {
       "name": "今日头条极速版",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.ss.android.article.news": {
       "name": "今日头条",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.bytedance.android.openlive.plugin.LivePlayerActivity": {
           "style": "disabled"
@@ -2654,12 +3003,14 @@
       "name": "西瓜视频",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.ss.android.auto": {
       "name": "懂车帝",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.ss.android.auto.activity.UploadBrowserActivity": {
           "style": "sf"
@@ -2670,6 +3021,7 @@
       "name": "飞书",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.bytedance.ee.bear.document.DocExpandActivity": {
           "style": "floating"
@@ -2785,6 +3137,7 @@
       "name": "抖音",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.bytedance.android.anniex.container.popup.SheetBaseDialog": {
           "style": "sf"
@@ -2825,6 +3178,7 @@
       "name": "抖音极速版",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.ss.android.ugc.aweme.bullet.ui.BulletContainerActivity": {
           "style": "disabled"
@@ -2841,6 +3195,7 @@
       "name": "抖省省",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.bytedance.locallife.page.pdp.LifePdpActivity": {
           "style": "sf"
@@ -2863,6 +3218,7 @@
       "name": "抖音火山版",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.ss.android.ugc.aweme.im.business.mediaselectpage.edit.IMEditPreviewActivity": {
           "style": "disabled"
@@ -2876,6 +3232,7 @@
       "name": "抖音商城",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.ss.android.ugc.aweme.im.business.mediaselectpage.edit.IMEditPreviewActivity": {
           "style": "disabled"
@@ -2889,6 +3246,7 @@
       "name": "抖音精选",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.ss.android.ugc.aweme.detail.ui.DetailActivity": {
           "style": "sf"
@@ -2899,6 +3257,7 @@
       "name": "SteamPY",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.google.android.material.bottomsheet.BottomSheetDialog": {
           "style": "sf"
@@ -2909,6 +3268,7 @@
       "name": "Startum",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -2919,12 +3279,14 @@
       "name": "皮皮虾",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.svw.sc.mos": {
       "name": "上汽大众",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.svw.sc.mos.main.ui.MainActivity": {
           "style": "sf",
@@ -2936,6 +3298,7 @@
       "name": "学而思启蒙",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -2949,12 +3312,14 @@
       "name": "一淘",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.taobao.idlefish": {
       "name": "闲鱼",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -2972,6 +3337,7 @@
       "name": "淘宝特价版",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.taobao.android.detail.alittdetail.TTDetailActivity": {
           "style": "sf"
@@ -2986,12 +3352,14 @@
       "name": "淘宝直播",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.taobao.movie.android": {
       "name": "淘票票",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.taobao.movie.android.app.home.activity.MainActivity": {
           "style": "sf"
@@ -3005,6 +3373,7 @@
       "name": "淘宝",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -3046,30 +3415,35 @@
       "name": "",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.taptap": {
       "name": "TapTap",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.tencent.android.qqdownloader": {
       "name": "应用宝",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.tencent.androidqqmail": {
       "name": "QQ邮箱",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.tencent.apps.valorant": {
       "name": "掌上无畏契约",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.tencent.mudule_web.PureWebActivity": {
           "style": "floating"
@@ -3086,36 +3460,42 @@
       "name": "和平营地",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.tencent.gamehelper.smoba": {
       "name": "王者营地",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.tencent.hunyuan.app.chat": {
       "name": "",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.tencent.karaoke": {
       "name": "全名K歌",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.tencent.map": {
       "name": "",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.tencent.mm": {
       "name": "微信",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -3174,6 +3554,7 @@
       "name": "QQ",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "alwaysShow",
       "activityRules": {
         "com.qzone.reborn.feedpro.activity.QzoneFriendFeedProActivity": {
           "style": "floating"
@@ -3199,6 +3580,7 @@
       "name": "QQ浏览器",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.tencent.mtt.MainActivity": {
           "style": "disabled"
@@ -3209,12 +3591,14 @@
       "name": "",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.tencent.qqlive": {
       "name": "腾讯视频",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.tencent.qqlive.kmm.VideoDetailKmmActivityBk": {
           "style": "sf"
@@ -3228,6 +3612,7 @@
       "name": "QQ音乐",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.tencent.qqmusic.activity.AppStarterActivity": {
           "style": "sf",
@@ -3242,12 +3627,14 @@
       "name": "",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.tencent.tim": {
       "name": "TIM",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.tencent.mobileqq.activity.SplashActivity": {
           "style": "sf"
@@ -3258,48 +3645,56 @@
       "name": "地下城与勇士：起源",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.tencent.tmgp.sgame": {
       "name": "",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.tencent.wemeet.app": {
       "name": "",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.tencent.weread": {
       "name": "微信读书",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.tencent.wework": {
       "name": "企业微信",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.tencent.zebra": {
       "name": "水印相机",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.tianyancha.skyeye": {
       "name": "",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.timanetworks.android.faw.vw.aftermarket.release": {
       "name": "一汽大众",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "sf"
@@ -3310,6 +3705,7 @@
       "name": "天猫",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.tmall.wireless.gallery.TMDetailActivity": {
           "style": "floating"
@@ -3323,24 +3719,28 @@
       "name": "交管12123",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.tongcheng.android": {
       "name": "",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.tplink.ipc": {
       "name": "",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.tumuyan.ncnn.realsr": {
       "name": "RealSR放大图片",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -3351,6 +3751,7 @@
       "name": "X",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.twitter.app.main.MainActivity": {
           "style": "floating"
@@ -3361,6 +3762,7 @@
       "name": "天文通",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -3371,6 +3773,7 @@
       "name": "WiFiman",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -3381,6 +3784,7 @@
       "name": "航旅纵横",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -3398,12 +3802,14 @@
       "name": "云闪付",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.unionpay.tsmservice.mi": {
       "name": "银联可信服务安全组件小米版本",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.unionpay.uppay.PayActivity": {
           "style": "floating"
@@ -3414,6 +3820,7 @@
       "name": "天学网学生",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -3424,6 +3831,7 @@
       "name": "天学网学生",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -3434,6 +3842,7 @@
       "name": "悠悠有品",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.uu898.uuhavequality.rent.activity.LeaseRecordActivity": {
           "style": "floating"
@@ -3447,6 +3856,7 @@
       "name": "Steam",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -3457,12 +3867,14 @@
       "name": "萤石云视频",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.walixiwa.flash.player": {
       "name": "资源猫",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -3476,6 +3888,7 @@
       "name": "一木记账",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -3498,6 +3911,7 @@
       "name": "EMobile7",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "weaver.fw.com.MainActivity": {
           "style": "view"
@@ -3508,6 +3922,7 @@
       "name": "微博国际版",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "view"
@@ -3534,6 +3949,7 @@
       "name": "WinPlay安装器",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "sf"
@@ -3544,12 +3960,14 @@
       "name": "今日校园",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.wisedu.cpdaily.nju": {
       "name": "南京大学",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.wisorg.wisedu.common.BrowsePageActivity": {
           "style": "sf"
@@ -3563,12 +3981,14 @@
       "name": "58同城",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.wuba.zhuanzhuan": {
       "name": "转转",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.zhuanzhuan.module.webview.page.WebContainerDialogActivity": {
           "style": "view"
@@ -3579,12 +3999,14 @@
       "name": "盒马",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.x7890.shortcutcreator": {
       "name": "创建快捷方式",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -3595,6 +4017,7 @@
       "name": "今日水印相机",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.xhey.xcamera.ui.camera.picNew.PreviewActivity": {
           "style": "color",
@@ -3606,6 +4029,7 @@
       "name": "小米 WiFi",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "color",
@@ -3617,6 +4041,7 @@
       "name": "小米商城",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -3636,6 +4061,7 @@
       "name": "米家",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.xiaomi.miot.store.ui.MiotStoreMainActivity": {
           "style": "floating"
@@ -3649,6 +4075,7 @@
       "name": "小米社区",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.xiaomi.vipaccount.newbrowser.NormalWebActivity": {
           "style": "floating"
@@ -3659,6 +4086,7 @@
       "name": "喜马拉雅",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.ximalaya.ting.android.host.activity.MainActivity": {
           "style": "sf"
@@ -3669,6 +4097,7 @@
       "name": "小红书",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "alwaysShow",
       "activityRules": {
         "*": {
           "style": "disabled"
@@ -3712,6 +4141,7 @@
       "name": "希望优课",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -3725,6 +4155,7 @@
       "name": "希望学习",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -3738,6 +4169,7 @@
       "name": "音乐标签",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -3748,30 +4180,35 @@
       "name": "番茄畅听",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.xs.fm.lite": {
       "name": "番茄畅听音乐版",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.xt.retouch": {
       "name": "",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.xtc.watch": {
       "name": "",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.xueersi.parentsmeeting": {
       "name": "希望优课",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -3785,6 +4222,7 @@
       "name": "迅雷",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.xunlei.downloadprovider.download.taskdetails.newui.DownloadDetailsActivity": {
           "style": "floating"
@@ -3795,6 +4233,7 @@
       "name": "拼多多",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -3811,18 +4250,21 @@
       "name": "",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.ygkj.chelaile.standard": {
       "name": "车来了",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.yiban.app": {
       "name": "易班",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -3841,24 +4283,28 @@
       "name": "",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.yitong.mbank.psbc": {
       "name": "",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.youdao.dict": {
       "name": "有道词典",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.youdao.translator": {
       "name": "有道翻译官",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.youdao.translator.activity.MainActivity": {
           "style": "floating"
@@ -3869,18 +4315,21 @@
       "name": "优酷视频",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.yueme.itv": {
       "name": "",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.yzj.kaipanh": {
       "name": "开盘红",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.yzj.kaipanh.newindex.ui.main.MainActivity": {
           "style": "sf"
@@ -3891,12 +4340,14 @@
       "name": "",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.zhihu.android": {
       "name": "知乎",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.zhihu.android.zvideo_publish.editor.DbEditorHostActivity": {
           "style": "view"
@@ -3907,6 +4358,7 @@
       "name": "知乎日报",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.zhihu.android.library.sharecore.activity.ShareHostActivity": {
           "style": "floating"
@@ -3929,6 +4381,7 @@
       "name": "追萝卜",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.radish.radish.MainActivity": {
           "style": "sf"
@@ -3939,6 +4392,7 @@
       "name": "自动点击器",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "com.autoclicker.clicker.MainActivity": {
           "style": "color",
@@ -3950,12 +4404,14 @@
       "name": "大学搜题酱",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "com.zte.smarthome": {
       "name": "中兴智慧生活",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "cn.com.zte.rn.RNServiceActivity": {
           "style": "floating"
@@ -3966,6 +4422,7 @@
       "name": "Seestar",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -3984,6 +4441,7 @@
       "name": "志愿汇",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -3998,6 +4456,7 @@
       "name": "携程旅行",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "ctrip.android.flutter.containers.TransparentTripFlutterActivity": {
           "style": "color",
@@ -4009,6 +4468,7 @@
       "name": "完美图标计划",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -4019,6 +4479,7 @@
       "name": "DevCheck",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -4029,6 +4490,7 @@
       "name": "MusicFree",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -4039,6 +4501,7 @@
       "name": "DVPL 转换器",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "gcd.dvpl.activity.ActivityMain": {
           "style": "floating"
@@ -4052,6 +4515,7 @@
       "name": "Thanox",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -4062,6 +4526,7 @@
       "name": "NGA玩家社区",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -4072,6 +4537,7 @@
       "name": "1DM+",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "acr.browser.lightning.activity.MainActivity": {
           "style": "floating"
@@ -4088,6 +4554,7 @@
       "name": "QAuxiliary",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -4098,6 +4565,7 @@
       "name": "Legado",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -4117,6 +4585,7 @@
       "name": "阅读",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "io.legado.app.ui.book.read.ReadBookActivity": {
           "style": "sf",
@@ -4128,6 +4597,7 @@
       "name": "pixiv",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "view"
@@ -4138,18 +4608,21 @@
       "name": "Via",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "me.ele": {
       "name": "淘宝闪购",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "me.hd.wauxv": {
       "name": "WAuxiliary",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -4160,16 +4633,25 @@
       "name": "哔哩漫游",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
         }
       }
     },
+    "me.weishu.kernelsu": {
+      "name": "KernelSU",
+      "enable": true,
+      "hookExcluded": true,
+      "navBarVisibility": "alwaysHide",
+      "activityRules": {}
+    },
     "org.frknkrc44.hma_oss": {
       "name": "HMA-OSS",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -4180,12 +4662,14 @@
       "name": "Telegram",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "org.xmsleep.app": {
       "name": "XMSLEEP",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "org.xmsleep.app.MainActivity": {
           "style": "floating"
@@ -4196,6 +4680,7 @@
       "name": "小灵龙",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "synjones.commerce.views.SplashActivity": {
           "style": "floating"
@@ -4209,6 +4694,7 @@
       "name": "表盘自定义工具",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "io.dcloud.PandoraEntryActivity": {
           "style": "sf"
@@ -4219,6 +4705,7 @@
       "name": "哔哩哔哩",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -4275,12 +4762,14 @@
       "name": "哔哩哔哩HD",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {}
     },
     "vegabobo.dsusideloader": {
       "name": "DSU Sideloader",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"
@@ -4291,6 +4780,7 @@
       "name": "KonaBess",
       "enable": true,
       "hookExcluded": true,
+      "navBarVisibility": "default",
       "activityRules": {
         "*": {
           "style": "floating"

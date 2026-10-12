@@ -170,6 +170,8 @@ def main():
     for app_rule in community_data.get("NBIRules", {}).values():
         if isinstance(app_rule, dict):
             app_rule.setdefault("hookExcluded", True)
+            # 小白条状态同样显式补全（默认 default = 跟随全局默认适配模式）
+            app_rule.setdefault("navBarVisibility", "default")
 
     write_json(output_path, community_data)
 

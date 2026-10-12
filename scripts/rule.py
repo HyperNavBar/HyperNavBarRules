@@ -161,14 +161,19 @@ class ActivityRule:
         return self
 
 
+NAV_BAR_VISIBILITY_VALUES = ("default", "alwaysShow", "autoHide", "alwaysHide")
+
+
 class AppRule:
-    def __init__(self, mode: str, package_name: str, name: str = "", enable: bool = True, disableVersionCode: int = None, hookExcluded: bool = True, activityRules: dict | str = None, **args):
+    def __init__(self, mode: str, package_name: str, name: str = "", enable: bool = True, disableVersionCode: int = None, hookExcluded: bool = True, navBarVisibility: str = "default", activityRules: dict | str = None, **args):
         self.package_name = package_name
         self.name = name
         self.enable = enable
         self.disableVersionCode = disableVersionCode
         # 默认不注入应用进程（避免被应用检测到 Hook）；显式 hookExcluded=false 才会注入
         self.hookExcluded = bool(hookExcluded)
+        # 小白条状态（手势提示线显示控制），默认 default = 跟随模块全局默认适配模式
+        self.navBarVisibility = navBarVisibility if navBarVisibility in NAV_BAR_VISIBILITY_VALUES else "default"
 
         if mode == "22":
             self.activityRules = {data[0]: ActivityRule.fromData(mode, data.split(":")[0], data) for data in activityRules.split(",")} if activityRules else {}
@@ -182,6 +187,8 @@ class AppRule:
                 result["disableVersionCode"] = self.disableVersionCode
             # 始终显式写出：旧版本应用默认值为 false，只有显式 true 才能让旧版本也不注入
             result["hookExcluded"] = self.hookExcluded
+            # 同样始终显式写出：默认 default（跟随全局默认适配模式）
+            result["navBarVisibility"] = self.navBarVisibility
             sorted_activity_rules = sorted(self.activityRules.items(), key=lambda x: x[0])
             result["activityRules"] = {name: rule.toData(mode) for name, rule in sorted_activity_rules}
             return result
@@ -212,6 +219,9 @@ class AppRule:
             self.enable = data["enable"]
         if "hookExcluded" in data:
             self.hookExcluded = bool(data["hookExcluded"])
+        if "navBarVisibility" in data:
+            value = data["navBarVisibility"]
+            self.navBarVisibility = value if value in NAV_BAR_VISIBILITY_VALUES else "default"
         return self
 
     def updateFromRule(self, rule):
