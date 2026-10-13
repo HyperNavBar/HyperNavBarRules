@@ -5,7 +5,6 @@
 ### 修复
 
 - **同活动覆盖按样式对齐**：`merge.json` / 生成流程在做同一活动键覆盖时，显式给出样式就按「整样式替换」处理，样式变化会清理旧样式的 `color` / `sf_sampling_mode`，避免残留取值带到新规则上（`scripts/rule.py`）
-- **微信小程序页面不再意外悬浮**：`com.tencent.mm` 的活动键 `AppBrandUIf*` 存在拼写错误（多一个 `f`），匹配不到任何活动，导致小程序页面回落到应用级 `*`（悬浮）；已改正为 `AppBrandUI*`，并补上小程序容器的具体活动键 `AppBrandUI00`–`AppBrandUI09`（具体键才是确定的取值，见 [document.md](document.md) 优先级说明）
 
 ## 2026-10-12
 

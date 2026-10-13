@@ -3509,36 +3509,6 @@
         "com.tencent.mm.plugin.appbrand.ui.AppBrandUI*": {
           "style": "sf"
         },
-        "com.tencent.mm.plugin.appbrand.ui.AppBrandUI00": {
-          "style": "sf"
-        },
-        "com.tencent.mm.plugin.appbrand.ui.AppBrandUI01": {
-          "style": "sf"
-        },
-        "com.tencent.mm.plugin.appbrand.ui.AppBrandUI02": {
-          "style": "sf"
-        },
-        "com.tencent.mm.plugin.appbrand.ui.AppBrandUI03": {
-          "style": "sf"
-        },
-        "com.tencent.mm.plugin.appbrand.ui.AppBrandUI04": {
-          "style": "sf"
-        },
-        "com.tencent.mm.plugin.appbrand.ui.AppBrandUI05": {
-          "style": "sf"
-        },
-        "com.tencent.mm.plugin.appbrand.ui.AppBrandUI06": {
-          "style": "sf"
-        },
-        "com.tencent.mm.plugin.appbrand.ui.AppBrandUI07": {
-          "style": "sf"
-        },
-        "com.tencent.mm.plugin.appbrand.ui.AppBrandUI08": {
-          "style": "sf"
-        },
-        "com.tencent.mm.plugin.appbrand.ui.AppBrandUI09": {
-          "style": "sf"
-        },
         "com.tencent.mm.plugin.finder.ui.FinderHomeAffinityUI": {
           "style": "floating"
         },
