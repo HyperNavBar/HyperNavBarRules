@@ -133,19 +133,38 @@ class ActivityRule:
             return cls(name=parts[0], **cls.normalize_from_official(official))
 
     def updateFromDict(self, data):
+        """用同一活动的另一条规则更新本规则（同活动键覆盖）。
+
+        显式给出 `style`（或官方 `mode`）时按「整样式替换」处理：样式变化时先清掉属于旧样式的
+        `color` / `sf_sampling_mode`，再写入新样式取值。否则旧样式的残留字段会带到新规则上——
+        典型是残留的 `sf_sampling_mode: -1/255`（强制禁用 SF），系统侧 SF 取值优先于 mode 分发，
+        会让「悬浮 / 自定义颜色覆盖 SF 取色」出现覆盖无效。
+        """
+        normalized = None
         if "style" in data:
-            self.style = data["style"] if data["style"] in self.VALID_STYLES else "disabled"
-            if "color" in data:
-                self.color = self._normalize_color(data["color"])
-            if "sf_sampling_mode" in data:
-                self.sf_sampling_mode = data["sf_sampling_mode"]
+            new_style = data["style"] if data["style"] in self.VALID_STYLES else "disabled"
         elif "mode" in data:
             normalized = self.normalize_from_official(data)
-            self.style = normalized.get("style", self.style)
-            if "color" in normalized:
-                self.color = normalized["color"]
-            if "sf_sampling_mode" in normalized:
-                self.sf_sampling_mode = normalized["sf_sampling_mode"]
+            new_style = normalized.get("style", self.style)
+        else:
+            new_style = None
+
+        if new_style is not None:
+            if new_style != self.style:
+                # 样式切换：旧样式的专属字段不再适用
+                self.color = None
+                self.sf_sampling_mode = None
+            self.style = new_style
+            # 颜色：显式提供则写入；官方格式输入视为完整规格（未提供即该样式无自定义颜色）
+            if "color" in data:
+                self.color = self._normalize_color(data["color"])
+            elif normalized is not None:
+                self.color = normalized.get("color")
+            # SF 采样高级字段：仅 -1/255（强制禁用 SF）有意义
+            if "sf_sampling_mode" in data:
+                self.sf_sampling_mode = data["sf_sampling_mode"]
+            elif normalized is not None:
+                self.sf_sampling_mode = normalized.get("sf_sampling_mode")
         if "dialogMode" in data:
             self.dialogMode = data["dialogMode"]
         if "popupMode" in data:
