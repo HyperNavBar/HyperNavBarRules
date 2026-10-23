@@ -1,6 +1,6 @@
 {
   "name": "社区规则源",
-  "dataVersion": "261013",
+  "dataVersion": "261023",
   "modules": "HyperNavBar_config",
   "modifyApps": "modifyApps",
   "NBIRules": {
@@ -3541,6 +3541,10 @@
         },
         "com.tencent.mm.ui.chatting.ChattingUI": {
           "style": "sf"
+        },
+        "com.tencent.mm.ui.conversation.ConvBoxServiceConversationUI": {
+          "style": "floating",
+          "appNavColorDisabled": 1
         },
         "com.tencent.mm.ui.conversation.NewBizConversationUI": {
           "style": "view"
