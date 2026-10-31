@@ -11,28 +11,6 @@
       "navBarVisibility": "default",
       "activityRules": {}
     },
-    "bin.mt.plus": {
-      "name": "MT管理器",
-      "enable": true,
-      "hookExcluded": false,
-      "navBarVisibility": "default",
-      "activityRules": {
-        "*": {
-          "style": "floating"
-        }
-      }
-    },
-    "bin.mt.plus.canary": {
-      "name": "MT管理器（测试版）",
-      "enable": true,
-      "hookExcluded": false,
-      "navBarVisibility": "default",
-      "activityRules": {
-        "*": {
-          "style": "floating"
-        }
-      }
-    },
     "cmb.pb": {
       "name": "招商银行",
       "enable": true,
